@@ -1,0 +1,13 @@
+<p>
+  <b>Label:</b>
+  <%=h @task.label %>
+</p>
+
+<p>
+  <b>Context:</b>
+  <%=h @task.context_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>

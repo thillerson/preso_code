@@ -1,0 +1,18 @@
+
+create-sequence-exclude-delegate-from-user-input:
+    [input] Enter the sequence name
+
+log:
+     [echo] ./cairngen.log
+
+_create-sequence-exclude-delegate:
+     [echo] @Invoking Cairngen on [Stuff] --> Generating file(s): CreateTaskEvent.as, CreateTaskCommand.as
+     [copy] Copying 1 file to /Users/tony/work/flexonrails/trunk/topics/flex_frameworks/flex_cairngorm/src/flexonrails/examples/stuff/events
+     [copy] Copying 1 file to /Users/tony/work/flexonrails/trunk/topics/flex_frameworks/flex_cairngorm/src/flexonrails/examples/stuff/commands
+
+add-command-to-front-controller:
+     [echo] adding CreateTask command to the front controller
+
+gen-sequence:
+
+BUILD SUCCESSFUL

@@ -1,0 +1,22 @@
+# == Schema Information
+# Schema version: 2
+#
+# Table name: contexts
+#
+#  id         :integer         not null, primary key
+#  label      :string(255)     
+#  created_at :datetime        
+#  updated_at :datetime        
+#
+
+work:
+  id: 1
+  label: Work
+
+home:
+  id: 2
+  label: Home
+
+anarco_syndicalist_commune_biweekly_meetings:
+  id: 3
+  label: Anarcho-syndicalist Commune Bi-weekly Meetings

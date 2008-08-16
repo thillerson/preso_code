@@ -1,0 +1,556 @@
+  [4;36;1mContext Create (0.000562)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 12:46:42', NULL, '2008-05-18 12:46:42')[0m
+  [4;36;1mContext Create (0.000611)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 12:47:09', NULL, '2008-05-18 12:47:09')[0m
+  [4;36;1mContext Create (0.000851)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 12:48:32', NULL, '2008-05-18 12:48:32')[0m
+  [4;36;1mContext Create (0.000913)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 12:49:17', NULL, '2008-05-18 12:49:17')[0m
+  [4;36;1mContext Create (0.000591)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:07:56', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:07:56')[0m
+  [4;35;1mTask Create (0.000472)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:07:56', 'Collect more lovely filth', '2008-05-18 13:07:56')[0m
+  [4;36;1mTask Create (0.000516)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:07:56', NULL, '2008-05-18 13:07:56')[0m
+  [4;36;1mContext Create (0.000579)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:09:03', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:09:03')[0m
+  [4;35;1mTask Create (0.000506)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:09:03', 'Collect more lovely filth', '2008-05-18 13:09:03')[0m
+  [4;36;1mTask Create (0.000480)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:09:03', NULL, '2008-05-18 13:09:03')[0m
+  [4;36;1mContext Create (0.000424)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:09:39', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:09:39')[0m
+  [4;35;1mTask Create (0.000459)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:09:39', 'Collect more lovely filth', '2008-05-18 13:09:39')[0m
+  [4;36;1mTask Create (0.000401)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:09:39', NULL, '2008-05-18 13:09:39')[0m
+  [4;36;1mContext Create (0.000504)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:10:02', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:10:02')[0m
+  [4;35;1mTask Create (0.000533)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:02', 'Collect more lovely filth', '2008-05-18 13:10:02')[0m
+  [4;36;1mTask Create (0.000512)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:02', NULL, '2008-05-18 13:10:02')[0m
+  [4;36;1mContext Create (0.000658)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:10:42', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:10:42')[0m
+  [4;35;1mTask Create (0.000572)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:42', 'Collect more lovely filth', '2008-05-18 13:10:42')[0m
+  [4;36;1mTask Create (0.000507)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:42', NULL, '2008-05-18 13:10:42')[0m
+  [4;36;1mContext Create (0.000616)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:10:57', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:10:57')[0m
+  [4;35;1mTask Create (0.000526)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:57', 'Collect more lovely filth', '2008-05-18 13:10:57')[0m
+  [4;36;1mContext Create (0.000641)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:14:34', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:14:34')[0m
+  [4;35;1mContext Load (0.000474)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000351)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000598)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:15:13', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:15:13')[0m
+  [4;35;1mContext Load (0.000445)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000318)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000422)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:15:13', 'Collect more lovely filth', '2008-05-18 13:15:13')[0m
+  [4;36;1mContext Load (0.000576)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000360)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000588)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:17:18', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:17:18')[0m
+  [4;35;1mContext Load (0.000432)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000319)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000452)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:17:18', 'Collect lovely filth', '2008-05-18 13:17:18')[0m
+  [4;36;1mContext Load (0.000576)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000344)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000620)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:19:51', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:19:51')[0m
+  [4;35;1mContext Load (0.000440)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000293)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000411)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:19:51', 'Collect lovely filth', '2008-05-18 13:19:51')[0m
+  [4;36;1mContext Load (0.000591)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000426)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000961)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:20:56', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:20:56')[0m
+  [4;35;1mContext Load (0.000435)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000296)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000412)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:20:56', 'Collect lovely filth', '2008-05-18 13:20:56')[0m
+  [4;36;1mContext Load (0.000581)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000352)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000890)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:22:02', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:22:02')[0m
+  [4;35;1mContext Load (0.000432)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000293)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000489)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:22:02', 'Collect lovely filth', '2008-05-18 13:22:02')[0m
+  [4;36;1mContext Load (0.000588)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000335)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.002733)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:32:34', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:32:34')[0m
+  [4;35;1mContext Load (0.000455)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000324)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000485)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:32:34', 'Collect lovely filth', '2008-05-18 13:32:34')[0m
+  [4;36;1mContext Load (0.000567)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000313)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000890)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:33:57', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:33:57')[0m
+  [4;36;1mContext Create (0.000677)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:34:38', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:34:38')[0m
+  [4;36;1mContext Create (0.000559)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:44:20', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:44:20')[0m
+  [4;35;1mContext Load (0.000484)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000363)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000568)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:44:20', 'Collect lovely filth', '2008-05-18 13:44:20')[0m
+  [4;36;1mContext Load (0.000440)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000354)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000588)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:44:40', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:44:40')[0m
+  [4;35;1mContext Load (0.000437)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000320)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000463)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:44:40', 'Collect lovely filth', '2008-05-18 13:44:40')[0m
+  [4;36;1mContext Load (0.000255)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000204)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000956)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:45:37', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:45:37')[0m
+  [4;35;1mContext Load (0.000463)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000419)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.002242)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mTask Create (0.000535)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:45:38', 'Collect lovely filth', '2008-05-18 13:45:38')[0m
+  [4;35;1mContext Load (0.000293)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000210)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000646)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:45:51', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:45:51')[0m
+  [4;35;1mContext Load (0.000440)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000316)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000246)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mTask Create (0.000393)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:45:51', 'Collect lovely filth', '2008-05-18 13:45:51')[0m
+  [4;35;1mContext Load (0.000658)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000279)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000634)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:47:08', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:47:08')[0m
+  [4;35;1mContext Load (0.000434)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mTask Create (0.000402)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:47:08', 'Find out who lives in that castle', '2008-05-18 13:47:08')[0m
+  [4;35;1mContext Load (0.000599)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000318)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000451)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:47:08', 'Collect lovely filth', '2008-05-18 13:47:08')[0m
+  [4;36;1mContext Load (0.000591)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000354)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000411)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 14:27:57', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 14:27:57')[0m
+  [4;35;1mContext Load (0.000289)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mTask Create (0.000312)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 14:27:57', 'Find out who lives in that castle', '2008-05-18 14:27:57')[0m
+  [4;35;1mContext Load (0.000293)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000237)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000327)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 14:27:57', 'Collect lovely filth', '2008-05-18 14:27:57')[0m
+  [4;36;1mContext Load (0.000289)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000259)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mSQL (0.000577)[0m   [0;1mSELECT count(*) AS count_all FROM contexts [0m
+
+
+Processing ContextsController#create (for 0.0.0.0 at 2008-05-18 14:27:59) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contexts", "context"=>{}}
+Rendering template within layouts/contexts
+Rendering contexts/new
+Completed in 0.04827 (20 reqs/sec) | Rendering: 0.00316 (6%) | DB: 0.00058 (1%) | 200 OK [http://test.host/contexts?]
+  [4;35;1mSQL (0.000236)[0m   [0mSELECT count(*) AS count_all FROM contexts [0m
+  [4;36;1mSQL (0.000333)[0m   [0;1mSELECT count(*) AS count_all FROM contexts [0m
+
+
+Processing ContextsController#index (for 0.0.0.0 at 2008-05-18 14:27:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"contexts"}
+  [4;35;1mContext Load (0.000555)[0m   [0mSELECT * FROM contexts [0m
+Rendering template within layouts/contexts
+Rendering contexts/index
+Completed in 0.00411 (243 reqs/sec) | Rendering: 0.00286 (69%) | DB: 0.00112 (27%) | 200 OK [http://test.host/contexts]
+
+
+Processing ContextsController#new (for 0.0.0.0 at 2008-05-18 14:27:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contexts"}
+Rendering template within layouts/contexts
+Rendering contexts/new
+Completed in 0.00124 (809 reqs/sec) | Rendering: 0.00093 (75%) | DB: 0.00000 (0%) | 200 OK [http://test.host/contexts/new]
+  [4;36;1mSQL (0.000244)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2008-05-18 14:27:59) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "task"=>{}, "controller"=>"tasks"}
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 0.00599 (166 reqs/sec) | Rendering: 0.00269 (44%) | DB: 0.00024 (4%) | 200 OK [http://test.host/tasks?]
+  [4;35;1mSQL (0.000200)[0m   [0mSELECT count(*) AS count_all FROM tasks [0m
+  [4;36;1mSQL (0.000214)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2008-05-18 14:27:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000563)[0m   [0mSELECT * FROM tasks [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 0.00326 (307 reqs/sec) | Rendering: 0.00214 (65%) | DB: 0.00098 (29%) | 200 OK [http://test.host/tasks]
+
+
+Processing TasksController#new (for 0.0.0.0 at 2008-05-18 14:27:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 0.00125 (798 reqs/sec) | Rendering: 0.00096 (76%) | DB: 0.00000 (0%) | 200 OK [http://test.host/tasks/new]
+  [4;36;1mSQL (0.000570)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2008-05-18 14:30:03) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "task"=>{}, "controller"=>"tasks"}
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 0.00856 (116 reqs/sec) | Rendering: 0.00336 (39%) | DB: 0.00057 (6%) | 200 OK [http://test.host/tasks?]
+  [4;35;1mSQL (0.000217)[0m   [0mSELECT count(*) AS count_all FROM tasks [0m
+  [4;36;1mSQL (0.000244)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+  [4;35;1mTask Load (0.000239)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#destroy (for 0.0.0.0 at 2008-05-18 14:30:03) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"675556243", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000250)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+  [4;35;1mTask Destroy (0.000338)[0m   [0m DELETE FROM tasks
+ WHERE "id" = 675556243
+[0m
+Redirected to http://test.host/tasks
+Completed in 0.00140 (715 reqs/sec) | DB: 0.00129 (92%) | 302 Found [http://test.host/tasks/675556243]
+  [4;36;1mSQL (0.000155)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+  [4;35;1mTask Load (0.000666)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#edit (for 0.0.0.0 at 2008-05-18 14:30:03) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"675556243", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000372)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+Rendering template within layouts/tasks
+Rendering tasks/edit
+Completed in 0.00348 (287 reqs/sec) | Rendering: 0.00260 (74%) | DB: 0.00119 (34%) | 200 OK [http://test.host/tasks/675556243/edit]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2008-05-18 14:30:03) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000860)[0m   [0mSELECT * FROM tasks [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 0.00442 (226 reqs/sec) | Rendering: 0.00279 (63%) | DB: 0.00086 (19%) | 200 OK [http://test.host/tasks]
+
+
+Processing TasksController#new (for 0.0.0.0 at 2008-05-18 14:30:03) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 0.00141 (710 reqs/sec) | Rendering: 0.00105 (74%) | DB: 0.00000 (0%) | 200 OK [http://test.host/tasks/new]
+  [4;36;1mTask Load (0.000294)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#show (for 0.0.0.0 at 2008-05-18 14:30:03) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"675556243", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000259)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 0.00174 (573 reqs/sec) | Rendering: 0.00100 (57%) | DB: 0.00055 (31%) | 200 OK [http://test.host/tasks/675556243]
+  [4;36;1mTask Load (0.000278)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2008-05-18 14:30:03) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "task"=>{}, "id"=>"675556243", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000240)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+  [4;36;1mContext Load (0.000240)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+  [4;35;1mTask Update (0.000441)[0m   [0mUPDATE tasks SET "created_at" = '2008-05-18 14:30:03', "completed_at" = NULL, "label" = 'Finish Flex Maniacs Preso', "updated_at" = '2008-05-18 14:30:03', "context_id" = 1 WHERE "id" = 675556243[0m
+Redirected to http://test.host/tasks/675556243
+Completed in 0.00314 (318 reqs/sec) | DB: 0.00120 (38%) | 302 Found [http://test.host/tasks/675556243?]
+  [4;36;1mSQL (0.000597)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+  [4;35;1mContext Load (0.000314)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 2) [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2008-05-18 14:30:41) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "task"=>{"context"=>#<Context id: 2, label: "Home", created_at: "2008-05-18 14:30:41", updated_at: "2008-05-18 14:30:41">, "label"=>"do stuff"}, "controller"=>"tasks"}
+  [4;36;1mTask Create (0.000548)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 2, '2008-05-18 14:30:41', 'do stuff', '2008-05-18 14:30:41')[0m
+Redirected to http://test.host/tasks/1018837953
+Completed in 0.00701 (142 reqs/sec) | DB: 0.00146 (20%) | 302 Found [http://test.host/tasks?task%5Bcontext%5D=2&task%5Blabel%5D=do+stuff]
+  [4;35;1mSQL (0.000185)[0m   [0mSELECT count(*) AS count_all FROM tasks [0m
+  [4;36;1mSQL (0.000445)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+  [4;35;1mTask Load (0.000393)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#destroy (for 0.0.0.0 at 2008-05-18 14:30:41) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"675556243", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000381)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+  [4;35;1mTask Destroy (0.000401)[0m   [0m DELETE FROM tasks
+ WHERE "id" = 675556243
+[0m
+Redirected to http://test.host/tasks
+Completed in 0.04129 (24 reqs/sec) | DB: 0.00180 (4%) | 302 Found [http://test.host/tasks/675556243]
+  [4;36;1mSQL (0.000247)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+  [4;35;1mTask Load (0.000386)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#edit (for 0.0.0.0 at 2008-05-18 14:30:41) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"675556243", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000258)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+Rendering template within layouts/tasks
+Rendering tasks/edit
+Completed in 0.00347 (287 reqs/sec) | Rendering: 0.00286 (82%) | DB: 0.00089 (25%) | 200 OK [http://test.host/tasks/675556243/edit]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2008-05-18 14:30:41) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000557)[0m   [0mSELECT * FROM tasks [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 0.00325 (307 reqs/sec) | Rendering: 0.00212 (65%) | DB: 0.00056 (17%) | 200 OK [http://test.host/tasks]
+
+
+Processing TasksController#new (for 0.0.0.0 at 2008-05-18 14:30:41) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 0.00186 (536 reqs/sec) | Rendering: 0.00158 (84%) | DB: 0.00000 (0%) | 200 OK [http://test.host/tasks/new]
+  [4;36;1mTask Load (0.000299)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#show (for 0.0.0.0 at 2008-05-18 14:30:41) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"675556243", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000249)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 0.00171 (585 reqs/sec) | Rendering: 0.00097 (56%) | DB: 0.00055 (32%) | 200 OK [http://test.host/tasks/675556243]
+  [4;36;1mTask Load (0.000282)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2008-05-18 14:30:41) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "task"=>{}, "id"=>"675556243", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000244)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+  [4;36;1mContext Load (0.000244)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+  [4;35;1mTask Update (0.000436)[0m   [0mUPDATE tasks SET "created_at" = '2008-05-18 14:30:41', "completed_at" = NULL, "label" = 'Finish Flex Maniacs Preso', "updated_at" = '2008-05-18 14:30:41', "context_id" = 1 WHERE "id" = 675556243[0m
+Redirected to http://test.host/tasks/675556243
+Completed in 0.00263 (380 reqs/sec) | DB: 0.00121 (45%) | 302 Found [http://test.host/tasks/675556243?]
+  [4;36;1mSQL (0.000567)[0m   [0;1mSELECT count(*) AS count_all FROM contexts [0m
+
+
+Processing ContextsController#create (for 0.0.0.0 at 2008-05-18 14:30:53) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contexts", "context"=>{}}
+Rendering template within layouts/contexts
+Rendering contexts/new
+Completed in 0.00849 (117 reqs/sec) | Rendering: 0.00361 (42%) | DB: 0.00057 (6%) | 200 OK [http://test.host/contexts?]
+  [4;35;1mSQL (0.000244)[0m   [0mSELECT count(*) AS count_all FROM contexts [0m
+  [4;36;1mSQL (0.000239)[0m   [0;1mSELECT count(*) AS count_all FROM contexts [0m
+
+
+Processing ContextsController#index (for 0.0.0.0 at 2008-05-18 14:30:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"contexts"}
+  [4;35;1mContext Load (0.000401)[0m   [0mSELECT * FROM contexts [0m
+Rendering template within layouts/contexts
+Rendering contexts/index
+Completed in 0.00288 (346 reqs/sec) | Rendering: 0.00197 (68%) | DB: 0.00088 (30%) | 200 OK [http://test.host/contexts]
+
+
+Processing ContextsController#new (for 0.0.0.0 at 2008-05-18 14:30:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contexts"}
+Rendering template within layouts/contexts
+Rendering contexts/new
+Completed in 0.00124 (808 reqs/sec) | Rendering: 0.00094 (76%) | DB: 0.00000 (0%) | 200 OK [http://test.host/contexts/new]
+  [4;36;1mSQL (0.000508)[0m   [0;1mSELECT count(*) AS count_all FROM contexts [0m
+
+
+Processing ContextsController#create (for 0.0.0.0 at 2008-05-18 14:31:35) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contexts", "context"=>{"label"=>"stuff"}}
+  [4;35;1mContext Create (0.000503)[0m   [0mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 14:31:35', 'stuff', '2008-05-18 14:31:35')[0m
+Redirected to http://test.host/contexts/4
+Completed in 0.00618 (161 reqs/sec) | DB: 0.00101 (16%) | 302 Found [http://test.host/contexts?context%5Blabel%5D=stuff]
+  [4;36;1mSQL (0.000205)[0m   [0;1mSELECT count(*) AS count_all FROM contexts [0m
+  [4;35;1mSQL (0.000439)[0m   [0mSELECT count(*) AS count_all FROM contexts [0m
+  [4;36;1mContext Load (0.000208)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+
+
+Processing ContextsController#destroy (for 0.0.0.0 at 2008-05-18 14:31:35) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"contexts"}
+  [4;35;1mContext Load (0.000238)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+  [4;36;1mContext Destroy (0.000334)[0m   [0;1m DELETE FROM contexts
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/contexts
+Completed in 0.00139 (716 reqs/sec) | DB: 0.00142 (102%) | 302 Found [http://test.host/contexts/1]
+  [4;35;1mSQL (0.000157)[0m   [0mSELECT count(*) AS count_all FROM contexts [0m
+  [4;36;1mContext Load (0.000532)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+
+
+Processing ContextsController#edit (for 0.0.0.0 at 2008-05-18 14:31:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"contexts"}
+  [4;35;1mContext Load (0.000383)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+Rendering template within layouts/contexts
+Rendering contexts/edit
+Completed in 0.00555 (180 reqs/sec) | Rendering: 0.00440 (79%) | DB: 0.00107 (19%) | 200 OK [http://test.host/contexts/1/edit]
+
+
+Processing ContextsController#index (for 0.0.0.0 at 2008-05-18 14:31:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"contexts"}
+  [4;36;1mContext Load (0.000551)[0m   [0;1mSELECT * FROM contexts [0m
+Rendering template within layouts/contexts
+Rendering contexts/index
+Completed in 0.00368 (271 reqs/sec) | Rendering: 0.00244 (66%) | DB: 0.00055 (14%) | 200 OK [http://test.host/contexts]
+
+
+Processing ContextsController#new (for 0.0.0.0 at 2008-05-18 14:31:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contexts"}
+Rendering template within layouts/contexts
+Rendering contexts/new
+Completed in 0.00181 (552 reqs/sec) | Rendering: 0.00153 (84%) | DB: 0.00000 (0%) | 200 OK [http://test.host/contexts/new]
+  [4;35;1mContext Load (0.000264)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+
+
+Processing ContextsController#show (for 0.0.0.0 at 2008-05-18 14:31:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"contexts"}
+  [4;36;1mContext Load (0.000210)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+Rendering template within layouts/contexts
+Rendering contexts/show
+Completed in 0.00169 (590 reqs/sec) | Rendering: 0.00100 (59%) | DB: 0.00047 (28%) | 200 OK [http://test.host/contexts/1]
+  [4;35;1mContext Load (0.000259)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+
+
+Processing ContextsController#update (for 0.0.0.0 at 2008-05-18 14:31:35) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"contexts", "context"=>{}}
+  [4;36;1mContext Load (0.000208)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+  [4;35;1mContext Update (0.000433)[0m   [0mUPDATE contexts SET "created_at" = '2008-05-18 14:31:35', "label" = 'Work', "updated_at" = '2008-05-18 14:31:35' WHERE "id" = 1[0m
+Redirected to http://test.host/contexts/1
+Completed in 0.00200 (499 reqs/sec) | DB: 0.00090 (44%) | 302 Found [http://test.host/contexts/1?]
+  [4;36;1mContext Create (0.000610)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 14:31:40', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 14:31:40')[0m
+  [4;35;1mContext Load (0.000456)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mTask Create (0.000452)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 14:31:40', 'Find out who lives in that castle', '2008-05-18 14:31:40')[0m
+  [4;35;1mContext Load (0.000559)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000329)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000457)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 14:31:40', 'Collect lovely filth', '2008-05-18 14:31:40')[0m
+  [4;36;1mContext Load (0.000423)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000493)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mSQL (0.000612)[0m   [0;1mSELECT count(*) AS count_all FROM contexts [0m
+
+
+Processing ContextsController#create (for 0.0.0.0 at 2008-05-18 14:31:42) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contexts", "context"=>{"label"=>"stuff"}}
+  [4;35;1mContext Create (0.000641)[0m   [0mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 14:31:42', 'stuff', '2008-05-18 14:31:42')[0m
+Redirected to http://test.host/contexts/4
+Completed in 0.04435 (22 reqs/sec) | DB: 0.00125 (2%) | 302 Found [http://test.host/contexts?context%5Blabel%5D=stuff]
+  [4;36;1mSQL (0.000201)[0m   [0;1mSELECT count(*) AS count_all FROM contexts [0m
+  [4;35;1mSQL (0.000441)[0m   [0mSELECT count(*) AS count_all FROM contexts [0m
+  [4;36;1mContext Load (0.000348)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+
+
+Processing ContextsController#destroy (for 0.0.0.0 at 2008-05-18 14:31:42) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"contexts"}
+  [4;35;1mContext Load (0.000335)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+  [4;36;1mContext Destroy (0.000410)[0m   [0;1m DELETE FROM contexts
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/contexts
+Completed in 0.00189 (528 reqs/sec) | DB: 0.00173 (91%) | 302 Found [http://test.host/contexts/1]
+  [4;35;1mSQL (0.000223)[0m   [0mSELECT count(*) AS count_all FROM contexts [0m
+  [4;36;1mContext Load (0.000581)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+
+
+Processing ContextsController#edit (for 0.0.0.0 at 2008-05-18 14:31:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"contexts"}
+  [4;35;1mContext Load (0.000321)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+Rendering template within layouts/contexts
+Rendering contexts/edit
+Completed in 0.00512 (195 reqs/sec) | Rendering: 0.00431 (84%) | DB: 0.00113 (21%) | 200 OK [http://test.host/contexts/1/edit]
+
+
+Processing ContextsController#index (for 0.0.0.0 at 2008-05-18 14:31:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"contexts"}
+  [4;36;1mContext Load (0.000567)[0m   [0;1mSELECT * FROM contexts [0m
+Rendering template within layouts/contexts
+Rendering contexts/index
+Completed in 0.00371 (269 reqs/sec) | Rendering: 0.00246 (66%) | DB: 0.00057 (15%) | 200 OK [http://test.host/contexts]
+
+
+Processing ContextsController#new (for 0.0.0.0 at 2008-05-18 14:31:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contexts"}
+Rendering template within layouts/contexts
+Rendering contexts/new
+Completed in 0.00204 (490 reqs/sec) | Rendering: 0.00169 (82%) | DB: 0.00000 (0%) | 200 OK [http://test.host/contexts/new]
+  [4;35;1mContext Load (0.000284)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+
+
+Processing ContextsController#show (for 0.0.0.0 at 2008-05-18 14:31:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"contexts"}
+  [4;36;1mContext Load (0.000216)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+Rendering template within layouts/contexts
+Rendering contexts/show
+Completed in 0.00171 (584 reqs/sec) | Rendering: 0.00098 (57%) | DB: 0.00050 (29%) | 200 OK [http://test.host/contexts/1]
+  [4;35;1mContext Load (0.000245)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+
+
+Processing ContextsController#update (for 0.0.0.0 at 2008-05-18 14:31:42) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"contexts", "context"=>{}}
+  [4;36;1mContext Load (0.000211)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+  [4;35;1mContext Update (0.000443)[0m   [0mUPDATE contexts SET "created_at" = '2008-05-18 14:31:42', "label" = 'Work', "updated_at" = '2008-05-18 14:31:42' WHERE "id" = 1[0m
+Redirected to http://test.host/contexts/1
+Completed in 0.00205 (486 reqs/sec) | DB: 0.00090 (43%) | 302 Found [http://test.host/contexts/1?]
+  [4;36;1mSQL (0.000277)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+  [4;35;1mContext Load (0.000207)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 2) [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2008-05-18 14:31:42) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "task"=>{"context"=>#<Context id: 2, label: "Home", created_at: "2008-05-18 14:31:42", updated_at: "2008-05-18 14:31:42">, "label"=>"do stuff"}, "controller"=>"tasks"}
+  [4;36;1mTask Create (0.000426)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 2, '2008-05-18 14:31:42', 'do stuff', '2008-05-18 14:31:42')[0m
+Redirected to http://test.host/tasks/1018837953
+Completed in 0.00486 (205 reqs/sec) | DB: 0.00091 (18%) | 302 Found [http://test.host/tasks?task%5Bcontext%5D=2&task%5Blabel%5D=do+stuff]
+  [4;35;1mSQL (0.000194)[0m   [0mSELECT count(*) AS count_all FROM tasks [0m
+  [4;36;1mSQL (0.000440)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+  [4;35;1mTask Load (0.000426)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#destroy (for 0.0.0.0 at 2008-05-18 14:31:42) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"675556243", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000369)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+  [4;35;1mTask Destroy (0.000380)[0m   [0m DELETE FROM tasks
+ WHERE "id" = 675556243
+[0m
+Redirected to http://test.host/tasks
+Completed in 0.00187 (535 reqs/sec) | DB: 0.00181 (96%) | 302 Found [http://test.host/tasks/675556243]
+  [4;36;1mSQL (0.000227)[0m   [0;1mSELECT count(*) AS count_all FROM tasks [0m
+  [4;35;1mTask Load (0.000658)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#edit (for 0.0.0.0 at 2008-05-18 14:31:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"675556243", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000367)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+Rendering template within layouts/tasks
+Rendering tasks/edit
+Completed in 0.00479 (208 reqs/sec) | Rendering: 0.00393 (82%) | DB: 0.00125 (26%) | 200 OK [http://test.host/tasks/675556243/edit]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2008-05-18 14:31:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000797)[0m   [0mSELECT * FROM tasks [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 0.00431 (231 reqs/sec) | Rendering: 0.00271 (62%) | DB: 0.00080 (18%) | 200 OK [http://test.host/tasks]
+
+
+Processing TasksController#new (for 0.0.0.0 at 2008-05-18 14:31:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 0.00216 (463 reqs/sec) | Rendering: 0.00181 (84%) | DB: 0.00000 (0%) | 200 OK [http://test.host/tasks/new]
+  [4;36;1mTask Load (0.000360)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#show (for 0.0.0.0 at 2008-05-18 14:31:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"675556243", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000265)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 0.00178 (562 reqs/sec) | Rendering: 0.00103 (57%) | DB: 0.00063 (35%) | 200 OK [http://test.host/tasks/675556243]
+  [4;36;1mTask Load (0.000305)[0m   [0;1mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2008-05-18 14:31:42) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"675556243", "task"=>{}, "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000245)[0m   [0mSELECT * FROM tasks WHERE (tasks."id" = 675556243) [0m
+  [4;36;1mContext Load (0.000237)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 1) [0m
+  [4;35;1mTask Update (0.000343)[0m   [0mUPDATE tasks SET "created_at" = '2008-05-18 14:31:42', "completed_at" = NULL, "label" = 'Finish Flex Maniacs Preso', "updated_at" = '2008-05-18 14:31:42', "context_id" = 1 WHERE "id" = 675556243[0m
+Redirected to http://test.host/tasks/675556243
+Completed in 0.00245 (408 reqs/sec) | DB: 0.00113 (46%) | 302 Found [http://test.host/tasks/675556243?]

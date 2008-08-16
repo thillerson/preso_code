@@ -1,0 +1,22 @@
+<h1>Editing task</h1>
+
+<%= error_messages_for :task %>
+
+<% form_for(@task) do |f| %>
+  <p>
+    <b>Label</b><br />
+    <%= f.text_field :label %>
+  </p>
+
+  <p>
+    <b>Context</b><br />
+    <%= f.text_field :context_id %>
+  </p>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @task %> |
+<%= link_to 'Back', tasks_path %>

@@ -1,0 +1,96 @@
+  [4;36;1mContext Create (0.000562)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 12:46:42', NULL, '2008-05-18 12:46:42')[0m
+  [4;36;1mContext Create (0.000611)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 12:47:09', NULL, '2008-05-18 12:47:09')[0m
+  [4;36;1mContext Create (0.000851)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 12:48:32', NULL, '2008-05-18 12:48:32')[0m
+  [4;36;1mContext Create (0.000913)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 12:49:17', NULL, '2008-05-18 12:49:17')[0m
+  [4;36;1mContext Create (0.000591)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:07:56', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:07:56')[0m
+  [4;35;1mTask Create (0.000472)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:07:56', 'Collect more lovely filth', '2008-05-18 13:07:56')[0m
+  [4;36;1mTask Create (0.000516)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:07:56', NULL, '2008-05-18 13:07:56')[0m
+  [4;36;1mContext Create (0.000579)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:09:03', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:09:03')[0m
+  [4;35;1mTask Create (0.000506)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:09:03', 'Collect more lovely filth', '2008-05-18 13:09:03')[0m
+  [4;36;1mTask Create (0.000480)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:09:03', NULL, '2008-05-18 13:09:03')[0m
+  [4;36;1mContext Create (0.000424)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:09:39', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:09:39')[0m
+  [4;35;1mTask Create (0.000459)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:09:39', 'Collect more lovely filth', '2008-05-18 13:09:39')[0m
+  [4;36;1mTask Create (0.000401)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:09:39', NULL, '2008-05-18 13:09:39')[0m
+  [4;36;1mContext Create (0.000504)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:10:02', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:10:02')[0m
+  [4;35;1mTask Create (0.000533)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:02', 'Collect more lovely filth', '2008-05-18 13:10:02')[0m
+  [4;36;1mTask Create (0.000512)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:02', NULL, '2008-05-18 13:10:02')[0m
+  [4;36;1mContext Create (0.000658)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:10:42', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:10:42')[0m
+  [4;35;1mTask Create (0.000572)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:42', 'Collect more lovely filth', '2008-05-18 13:10:42')[0m
+  [4;36;1mTask Create (0.000507)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:42', NULL, '2008-05-18 13:10:42')[0m
+  [4;36;1mContext Create (0.000616)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:10:57', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:10:57')[0m
+  [4;35;1mTask Create (0.000526)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, NULL, '2008-05-18 13:10:57', 'Collect more lovely filth', '2008-05-18 13:10:57')[0m
+  [4;36;1mContext Create (0.000641)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:14:34', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:14:34')[0m
+  [4;35;1mContext Load (0.000474)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000351)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000598)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:15:13', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:15:13')[0m
+  [4;35;1mContext Load (0.000445)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000318)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000422)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:15:13', 'Collect more lovely filth', '2008-05-18 13:15:13')[0m
+  [4;36;1mContext Load (0.000576)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000360)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000588)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:17:18', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:17:18')[0m
+  [4;35;1mContext Load (0.000432)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000319)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000452)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:17:18', 'Collect lovely filth', '2008-05-18 13:17:18')[0m
+  [4;36;1mContext Load (0.000576)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000344)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000620)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:19:51', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:19:51')[0m
+  [4;35;1mContext Load (0.000440)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000293)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000411)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:19:51', 'Collect lovely filth', '2008-05-18 13:19:51')[0m
+  [4;36;1mContext Load (0.000591)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000426)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000961)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:20:56', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:20:56')[0m
+  [4;35;1mContext Load (0.000435)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000296)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000412)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:20:56', 'Collect lovely filth', '2008-05-18 13:20:56')[0m
+  [4;36;1mContext Load (0.000581)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000352)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000890)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:22:02', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:22:02')[0m
+  [4;35;1mContext Load (0.000432)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000293)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000489)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:22:02', 'Collect lovely filth', '2008-05-18 13:22:02')[0m
+  [4;36;1mContext Load (0.000588)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000335)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.002733)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:32:34', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:32:34')[0m
+  [4;35;1mContext Load (0.000455)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000324)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000485)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:32:34', 'Collect lovely filth', '2008-05-18 13:32:34')[0m
+  [4;36;1mContext Load (0.000567)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000313)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000890)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:33:57', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:33:57')[0m
+  [4;36;1mContext Create (0.000677)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:34:38', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:34:38')[0m
+  [4;36;1mContext Create (0.000559)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:44:20', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:44:20')[0m
+  [4;35;1mContext Load (0.000484)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000363)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000568)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:44:20', 'Collect lovely filth', '2008-05-18 13:44:20')[0m
+  [4;36;1mContext Load (0.000440)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000354)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000588)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:44:40', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:44:40')[0m
+  [4;35;1mContext Load (0.000437)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000320)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000463)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:44:40', 'Collect lovely filth', '2008-05-18 13:44:40')[0m
+  [4;36;1mContext Load (0.000255)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000204)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000956)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:45:37', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:45:37')[0m
+  [4;35;1mContext Load (0.000463)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000419)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.002242)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mTask Create (0.000535)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:45:38', 'Collect lovely filth', '2008-05-18 13:45:38')[0m
+  [4;35;1mContext Load (0.000293)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000210)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000646)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:45:51', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:45:51')[0m
+  [4;35;1mContext Load (0.000440)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000316)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000246)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mTask Create (0.000393)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:45:51', 'Collect lovely filth', '2008-05-18 13:45:51')[0m
+  [4;35;1mContext Load (0.000658)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000279)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Create (0.000634)[0m   [0;1mINSERT INTO contexts ("updated_at", "label", "created_at") VALUES('2008-05-18 13:47:08', 'Anarcho-syndicalist Commune Bi-weekly Meetings', '2008-05-18 13:47:08')[0m
+  [4;35;1mContext Load (0.000434)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mTask Create (0.000402)[0m   [0;1mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:47:08', 'Find out who lives in that castle', '2008-05-18 13:47:08')[0m
+  [4;35;1mContext Load (0.000599)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;36;1mContext Load (0.000318)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mTask Create (0.000451)[0m   [0mINSERT INTO tasks ("completed_at", "context_id", "updated_at", "label", "created_at") VALUES(NULL, 3, '2008-05-18 13:47:08', 'Collect lovely filth', '2008-05-18 13:47:08')[0m
+  [4;36;1mContext Load (0.000591)[0m   [0;1mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m
+  [4;35;1mContext Load (0.000354)[0m   [0mSELECT * FROM contexts WHERE (contexts."id" = 3) [0m

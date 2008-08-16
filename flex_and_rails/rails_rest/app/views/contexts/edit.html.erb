@@ -1,0 +1,17 @@
+<h1>Editing context</h1>
+
+<%= error_messages_for :context %>
+
+<% form_for(@context) do |f| %>
+  <p>
+    <b>Label</b><br />
+    <%= f.text_field :label %>
+  </p>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @context %> |
+<%= link_to 'Back', contexts_path %>

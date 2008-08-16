@@ -1,0 +1,41 @@
+--- 
+contexts_001: 
+  updated_at: 2008-05-21 00:26:21
+  lft: "1"
+  id: "1"
+  label: contexts
+  rgt: "10"
+  parent_id: 
+  created_at: 2008-05-21 00:26:21
+contexts_002: 
+  updated_at: 2008-05-21 00:27:22
+  lft: "2"
+  id: "2"
+  label: work
+  rgt: "7"
+  parent_id: "1"
+  created_at: 2008-05-21 00:26:43
+contexts_003: 
+  updated_at: 2008-05-21 00:28:18
+  lft: "8"
+  id: "3"
+  label: home
+  rgt: "9"
+  parent_id: "1"
+  created_at: 2008-05-21 00:28:06
+contexts_004: 
+  updated_at: 2008-05-21 00:28:52
+  lft: "3"
+  id: "4"
+  label: project 1
+  rgt: "4"
+  parent_id: "2"
+  created_at: 2008-05-21 00:28:37
+contexts_005: 
+  updated_at: 2008-05-21 00:29:42
+  lft: "5"
+  id: "5"
+  label: project 2
+  rgt: "6"
+  parent_id: "2"
+  created_at: 2008-05-21 00:29:24

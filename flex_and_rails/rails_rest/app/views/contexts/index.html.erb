@@ -1,0 +1,20 @@
+<h1>Listing contexts</h1>
+
+<table>
+  <tr>
+    <th>Label</th>
+  </tr>
+
+<% for context in @contexts %>
+  <tr>
+    <td><%=h context.label %></td>
+    <td><%= link_to 'Show', context %></td>
+    <td><%= link_to 'Edit', edit_context_path(context) %></td>
+    <td><%= link_to 'Destroy', context, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New context', new_context_path %>

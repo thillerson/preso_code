@@ -1,0 +1,16 @@
+  [4;36;1mContext Create (0.000377)[0m   [0;1mINSERT INTO "contexts" ("updated_at", "label", "created_at") VALUES('2008-08-17 07:21:28', NULL, '2008-08-17 07:21:28')[0m
+  [4;36;1mContext Create (0.000623)[0m   [0;1mINSERT INTO "contexts" ("updated_at", "label", "created_at") VALUES('2008-08-17 07:22:26', 'New Context', '2008-08-17 07:22:26')[0m
+  [4;36;1mContext Create (0.000448)[0m   [0;1mINSERT INTO "contexts" ("updated_at", "label", "created_at") VALUES('2008-08-17 07:24:08', 'New Context', '2008-08-17 07:24:08')[0m
+  [4;35;1mContext Load (0.000360)[0m   [0mSELECT * FROM "contexts" WHERE ("contexts"."id" = 1) [0m
+  [4;36;1mTask Create (0.000344)[0m   [0;1mINSERT INTO "tasks" ("context_id", "updated_at", "label", "created_at") VALUES(NULL, '2008-08-17 07:24:08', NULL, '2008-08-17 07:24:08')[0m
+  [4;36;1mSQL (0.003081)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mContext Create (0.000396)[0m   [0;1mINSERT INTO "contexts" ("updated_at", "label", "created_at") VALUES('2008-08-17 07:25:02', 'New Context', '2008-08-17 07:25:02')[0m
+  [4;35;1mContext Load (0.000306)[0m   [0mSELECT * FROM "contexts" WHERE ("contexts"."id" = 1) [0m
+  [4;36;1mContext Create (0.000382)[0m   [0;1mINSERT INTO "contexts" ("updated_at", "label", "created_at") VALUES('2008-08-17 07:25:30', 'New Context', '2008-08-17 07:25:30')[0m
+  [4;35;1mContext Load (0.000304)[0m   [0mSELECT * FROM "contexts" WHERE ("contexts"."id" = 1) [0m
+  [4;36;1mContext Create (0.000392)[0m   [0;1mINSERT INTO "contexts" ("updated_at", "label", "created_at") VALUES('2008-08-17 07:26:02', 'New Context', '2008-08-17 07:26:02')[0m
+  [4;35;1mContext Load (0.000341)[0m   [0mSELECT * FROM "contexts" WHERE ("contexts"."id" = 1) [0m
+  [4;36;1mTask Create (0.000344)[0m   [0;1mINSERT INTO "tasks" ("context_id", "updated_at", "label", "created_at") VALUES(1, '2008-08-17 07:26:02', 'New Task', '2008-08-17 07:26:02')[0m

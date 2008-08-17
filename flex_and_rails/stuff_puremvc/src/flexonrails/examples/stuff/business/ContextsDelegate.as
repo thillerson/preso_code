@@ -17,7 +17,7 @@ package flexonrails.examples.stuff.business {
 		}
 		
 		public function loadAll():void {
-			var call:AsyncToken = service.load_all();
+			var call:AsyncToken = service.find_all();
 			call.addResponder(responder);
 		}
 

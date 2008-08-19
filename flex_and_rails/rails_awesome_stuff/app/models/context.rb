@@ -9,14 +9,12 @@
 #  updated_at :datetime        
 #
 
-work:
-  id: 1
-  label: Work
-
-home:
-  id: 2
-  label: Home
-
-anarco_syndicalist_commune_biweekly_meetings:
-  id: 3
-  label: Anarcho-syndicalist Commune Bi-weekly Meetings
+class Context < ActiveRecord::Base
+  
+  has_many :tasks
+  
+  validates_presence_of :label
+  
+  acts_as_nested_set
+  
+end

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns="http://www.degrafa.com/2007"
+	layout="absolute"
+	backgroundGradientColors="[#FFFFFF,#CCCCCC]">
+	
+	<mx:Style source="assets/style/style.css"/>
+	
+	<mx:Script>
+		<![CDATA[
+			import caurina.transitions.*;
+            
+            private function randomRange(min:Number=0, max:Number=0):Number {
+				return (Math.random()*(max - min)) + min;
+				}
+			
+			public function mover():void
+			{
+				dayTabBar.selectedIndex++;
+				
+				Tweener.addTween(redCircle, {width:randomRange(10,100),
+											 x:randomRange(100,400),
+											 y:randomRange(100,400),
+											 time:1,
+											 onComplete:mover});
+				Tweener.addTween(cyanCircle, {width:randomRange(10,100),
+											  x:randomRange(100,400),
+											  y:randomRange(100,400),
+											  time:1,
+											  onComplete:mover});
+				Tweener.addTween(yellowCircle, {width:randomRange(10,100),
+											 x:randomRange(100,400),
+											 y:randomRange(100,400),
+											 time:1,
+											 onComplete:mover});
+				Tweener.addTween(purpleCircle, {width:randomRange(10,100),
+											  x:randomRange(100,400),
+											  y:randomRange(100,400),
+											  time:1,
+											  onComplete:mover});
+				Tweener.addTween(brownCircle, {width:randomRange(10,100),
+											 x:randomRange(100,400),
+											 y:randomRange(100,400),
+											 time:1,
+											 onComplete:mover});
+				Tweener.addTween(orangeCircle, {width:randomRange(10,100),
+											  x:randomRange(100,400),
+											  y:randomRange(100,400),
+											  time:1,
+											  onComplete:mover});
+				Tweener.addTween(greyCircle, {width:randomRange(10,100),
+											 x:randomRange(100,400),
+											 y:randomRange(100,400),
+											 time:1,
+											 onComplete:mover});
+				Tweener.addTween(magentaCircle, {width:randomRange(10,100),
+											  x:randomRange(100,400),
+											  y:randomRange(100,400),
+											  time:1,
+											  onComplete:mover});
+				Tweener.addTween(limeCircle, {width:randomRange(10,100),
+											 x:randomRange(100,400),
+											 y:randomRange(100,400),
+											 time:1,
+											 onComplete:mover});
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:ToggleButtonBar id="dayTabBar" horizontalCenter="0" top="0">
+		<mx:dataProvider>
+			<mx:Array>
+				<mx:Object label="00"/>
+				<mx:Object label="01"/>
+				<mx:Object label="02"/>
+				<mx:Object label="03"/>
+				<mx:Object label="04"/>
+				<mx:Object label="05"/>
+				<mx:Object label="06"/>
+				<mx:Object label="07"/>
+				<mx:Object label="08"/>
+				<mx:Object label="09"/>
+				<mx:Object label="10"/>
+				<mx:Object label="11"/>
+				<mx:Object label="12"/>
+				<mx:Object label="13"/>
+				<mx:Object label="14"/>
+				<mx:Object label="15"/>
+				<mx:Object label="16"/>
+				<mx:Object label="17"/>
+				<mx:Object label="18"/>
+				<mx:Object label="19"/>
+				<mx:Object label="20"/>
+				<mx:Object label="21"/>
+				<mx:Object label="22"/>
+				<mx:Object label="23"/>
+			</mx:Array>
+		</mx:dataProvider>
+	</mx:ToggleButtonBar>
+	
+	<!-- GRAPHICS -->
+	
+	<GeometryComposition graphicsTarget="{[ tonyArea , juanArea ]}" >
+		<fills>
+			<SolidFill
+				id="darkCircleFill"
+				color="#000000"
+				alpha=".8"/>
+			<SolidFill
+				id="limeFill"
+				color="#D5E200"/>
+			<SolidFill
+				id="cyanFill"
+				color="#00ACE5"/>
+			<SolidFill
+				id="magentaFill"
+				color="#FF2D74"/>
+			<SolidFill
+				id="yellowFill"
+				color="#FCFB00"/>
+			<SolidFill
+				id="orangeFill"
+				color="#FF9100"/>
+			<SolidFill
+				id="purpleFill"
+				color="#A32290"/>
+			<SolidFill
+				id="greyFill"
+				color="#999999"/>
+			<SolidFill
+				id="brownFill"
+				color="#CE9C6A"/>
+			<SolidFill
+				id="redFill"
+				color="#D51F1F"/>
+		</fills>
+		
+		<Ellipse fill="{darkCircleFill}" width="500" height="500"/>
+	
+		<Ellipse id="cyanCircle" fill="{cyanFill}" height="{cyanCircle.width}"/>
+		<Ellipse id="limeCircle" fill="{limeFill}" height="{limeCircle.width}"/>
+		<Ellipse id="magentaCircle" fill="{magentaFill}" height="{magentaCircle.width}"/>
+		<Ellipse id="yellowCircle" fill="{yellowFill}" height="{yellowCircle.width}"/>
+		<Ellipse id="orangeCircle" fill="{orangeFill}" height="{orangeCircle.width}"/>
+		<Ellipse id="purpleCircle" fill="{purpleFill}" height="{purpleCircle.width}"/>
+		<Ellipse id="greyCircle" fill="{greyFill}" height="{greyCircle.width}"/>
+		<Ellipse id="brownCircle" fill="{brownFill}" height="{brownCircle.width}"/>
+		<Ellipse id="redCircle" fill="{redFill}" height="{redCircle.width}"/>
+	</GeometryComposition>
+	
+	<mx:VBox id="tonyArea" height="530" width="500" verticalAlign="bottom" horizontalAlign="center" horizontalCenter="-270" verticalCenter="-60">
+		<mx:Label text="tony"/>
+	</mx:VBox>
+	
+	<mx:VBox id="juanArea" height="530" width="500" verticalAlign="bottom" horizontalAlign="center" horizontalCenter="270" verticalCenter="-60">
+		<mx:Label text="juan"/>
+	</mx:VBox>
+	
+	<mx:HBox height="60" left="0" right="0" bottom="60" verticalAlign="middle" backgroundColor="#0000000" backgroundAlpha=".8" paddingLeft="10" paddingRight="10">
+		<mx:Label text="time bandit" styleName="title"/>
+		<mx:Label text="petri" height="10" paddingBottom="0" styleName="label" width="100%"/>
+		<mx:Button label="start" click="mover()"/>
+	</mx:HBox>
+	
+</mx:Application>

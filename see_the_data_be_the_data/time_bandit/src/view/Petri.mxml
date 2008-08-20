@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" xmlns="http://www.degrafa.com/2007" filters="{[glow]}">
+	
+	<mx:Script>
+	<![CDATA[
+		import model.BanditModel;
+		import com.degrafa.geometry.Circle;
+		import mx.events.CollectionEvent;
+		import com.degrafa.geometry.Ellipse;
+		import dto.Usage;
+		import dto.Person;
+		
+		private var tbModel:BanditModel = BanditModel.getInstance();
+		private var column:int;
+		private var row:int;
+		
+		private var usagesChanged:Boolean;
+		[Bindable] private var _person:Person
+		
+		public function get person():Person {
+			return _person;
+		}
+		
+		public function set person(p:Person):void {
+			_person = p;
+			if (_person.currentUsages) {
+				_person.currentUsages.addEventListener(CollectionEvent.COLLECTION_CHANGE, usagesHaveChanged);
+			}
+			usagesHaveChanged();
+		}
+		
+		override protected function commitProperties():void {
+			var usage:Usage;
+			var usageBubble:Circle;
+			var x:int, y:int = 0;
+			var visitedCategories:Dictionary = new Dictionary();
+			var categoryName:String;
+			
+			if (usagesChanged && _person && _person.currentUsages && _person.currentUsages.length > 0) {
+				reset();
+				for each (usage in _person.currentUsages) {
+					categoryName = usage.app.category.name;
+					if (tbModel.comparableCategories[categoryName.toLowerCase()]) {
+						if (! visitedCategories[categoryName]) {
+							visitedCategories[categoryName] = 0;
+						}
+						if (visitedCategories[categoryName] >= 20 || usage.duration < 1800) {
+							continue;
+						}
+						usageBubble = new Circle(x, y, usage.radius);
+						usageBubble.fill = usage.app.category.fill;
+						usageBubble.draw(graphics, null);
+						x = getX();
+						y = getY();
+						visitedCategories[categoryName] += 1;
+					}
+				}
+				usagesChanged = false;
+			}
+		}
+		
+		private function usagesHaveChanged(ce:CollectionEvent=null):void {
+			usagesChanged = true
+			invalidateProperties();
+		}
+		
+		private function getX():int {
+			
+			if (column == 5) {
+				row++;
+				column = 1;
+			}
+			
+			return ++column * 100;
+		}
+		
+		private function getY():int {
+			return row * 100;
+		}
+
+		private function reset():void {
+			graphics.clear();
+			row = 0;
+			column = 0;
+		}
+		
+	]]>
+	</mx:Script>
+	
+	<mx:GlowFilter id="glow" alpha=".1" blurX="6" blurY="6" color="#000000"/>
+	
+	<mx:Label id="personNameLabel" text="{_person.name}" horizontalCenter="0" bottom="0" />
+</mx:Canvas>

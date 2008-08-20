@@ -1,0 +1,88 @@
+/* CSS file */
+
+/*------------------------------------------------------------------------------ Fonts */
+
+@font-face
+{
+	src: 					url('../fonts/ArialRounded.swf');
+	fontFamily: 			'Arial Rounded MT Bold';
+	fontWeight:				Regular;
+}
+
+/*------------------------------------------------------------------------------ Text */
+
+.title
+{
+	color:					#00ACE5;
+	font-size:				22;
+}
+
+.label
+{
+	color:					#999999;
+}
+
+.category
+{
+	font-size:				12;
+	leading:				50;
+}
+
+
+/*------------------------------------------------------------------------------ Global */
+
+global
+{
+	font-family:			'Arial Rounded MT Bold';
+	color:					#333333;	
+}
+
+/*------------------------------------------------------------------------------ Components */
+
+ToggleButtonBar
+{
+	first-button-style-name: 			firstButton;
+	button-style-name:					middleButton;
+	last-button-style-name:				lastButton;
+	selected-button-text-style-name:	selectedButtonText;	
+}
+
+.firstButton,
+.middleButton,
+.lastButton
+{
+	skin:								ClassReference('assets.skins.ToggleButton_skin');
+	color:								#333333;
+	roll-over-color:					#CCCCCC;	
+}
+
+.extToggleButtonBar
+{
+	first-button-style-name: 			extFirstButton;
+	button-style-name:					extMiddleButton;
+	last-button-style-name:				extLastButton;
+	selected-button-text-style-name:	selectedButtonText;		
+}
+
+.extFirstButton,
+.extMiddleButton,
+.extLastButton
+{
+	skin:								ClassReference('assets.skins.ExtToggleButton_skin');
+	color:								#333333;
+	roll-over-color:					#CCCCCC;	
+}
+
+.selectedButtonText
+{
+	color:								#FFFFFF;
+	text-selected-color:				#FFFFFF;
+	roll-over-color:					#FFFFFF;
+}
+
+Button
+{
+	skin:								ClassReference('assets.skins.Button_skin');
+	color:								#CCCCCC;
+	roll-over-color:					#FFFFFF;		
+}

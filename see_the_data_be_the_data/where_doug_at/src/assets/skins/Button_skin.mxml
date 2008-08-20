@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphicBorderSkin
+	xmlns:mx="http://www.adobe.com/2006/mxml"  
+	xmlns="http://www.degrafa.com/2007">
+	
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.core.Application;
+			
+			[Bindable]
+			private var awidth:Number=0;
+			
+			[Bindable]
+			private var aheight:Number=0;
+			
+			
+			override protected function updateDisplayList(unscaledWidth:Number, unscaledHeight:Number):void{
+				
+				super.updateDisplayList(unscaledWidth, unscaledHeight);
+				awidth = unscaledWidth;
+				aheight = unscaledHeight;
+				
+			}
+			
+			
+		]]>
+	</mx:Script>
+	
+	<fills>
+		<SolidFill
+			id="blackFill"
+			color="#000000"/>
+	</fills>
+	
+	<strokes>
+		<SolidStroke
+			id="medGreyStroke"
+			color="#333333"
+			weight="1"/>
+	</strokes>
+	
+	<geometry>
+		<GeometryComposition>
+			<RegularRectangle
+				width="{awidth}"
+				height="{aheight}"
+				fill="{blackFill}"
+				stroke="{medGreyStroke}"/>
+		</GeometryComposition>
+	</geometry>
+	
+</GraphicBorderSkin>

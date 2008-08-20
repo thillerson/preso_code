@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" applicationComplete="init()" xmlns:flex="flare.flex.*" backgroundColor="#FFFFFF">
+	
+	<mx:Style source="assets/style/style.css"/>
+	
+	<mx:Script>
+	<![CDATA[
+	import flare.vis.operator.layout.PieLayout;
+	import flare.vis.operator.label.Labeler;
+	import flare.vis.operator.label.RadialLabeler;
+	import flare.vis.controls.TooltipControl;
+	import flare.vis.Visualization;
+	import flare.scale.ScaleType;
+	import flare.display.TextSprite;
+	import flare.vis.operator.encoder.PropertyEncoder;
+	import flare.vis.operator.encoder.ColorEncoder;
+	import flare.vis.operator.layout.AxisLayout;
+	import flare.vis.operator.OperatorList;
+	import flare.flex.FlareVis;
+	import flare.data.DataSet;
+	import flare.vis.data.Data;
+	import flare.data.DataSource;
+	
+	private function init():void {
+		var ds:DataSource;
+		var dset:DataSet;
+		var data:Data;
+		var pieLoader:URLLoader;
+		var lineLoader:URLLoader;
+		
+		ds = new DataSource(
+		    "distance_frequencies.tsv", "tab"
+		);
+		pieLoader = ds.load();
+        pieLoader.addEventListener(Event.COMPLETE, function(evt:Event):void {
+            dset = pieLoader.data as DataSet;
+            data = Data.fromDataSet(dset)
+            visualizePie(data);
+        });
+
+		ds = new DataSource(
+		    "greatest_distances.tsv", "tab"
+		);
+		lineLoader = ds.load();
+        lineLoader.addEventListener(Event.COMPLETE, function(evt:Event):void {
+           	dset = lineLoader.data as DataSet;
+            data = Data.fromDataSet(dset)
+            data.createEdges("data.date");
+            visualizeLine(data);
+        });
+	}
+	
+    private function visualizePie(data:Data):void {
+    	var vis:Visualization = pieVisualization.visualization;
+    	vis.data = data;
+ 
+ 		vis.data.nodes.setProperty("lineAlpha", 0);
+		vis.operators.add(new PieLayout("data.frequency"));
+		vis.operators.add(new ColorEncoder("data.frequency","nodes","fillColor"));
+		// Add text labels. The LAYER constant indicates labels should be
+		// placed in separate layer of the visualization
+		vis.operators.add(new RadialLabeler("data.range", false,
+			new TextFormat("Arial Rounded MT Bold",15,0,true), null, Labeler.LAYER));
+		vis.operators.last.radiusOffset = 15;
+		vis.update();
+    }
+			
+    private function visualizeLine(data:Data):void {
+    	var vis:Visualization = lineVisualization.visualization;
+    	vis.data = data;
+ 
+ 		var operators:OperatorList = new OperatorList(
+			new AxisLayout("data.date", "data.distance"),
+			new ColorEncoder("data.date", Data.EDGES,
+				"lineColor", ScaleType.CATEGORIES),
+			new ColorEncoder("data.distance", Data.NODES,
+				"fillColor", ScaleType.CATEGORIES),
+			new PropertyEncoder({
+				lineAlpha: 0, alpha: 0.5, buttonMode: false,
+				scaleX: 1, scaleY: 1, size: 0.5
+			}),
+			new PropertyEncoder({lineWidth:2}, Data.EDGES)
+		);
+ 
+        vis.operators.add(operators);
+        vis.data.nodes.setProperties({lineAlpha:0, fillAlpha:0});
+        vis.data.edges.setProperties({lineWidth:3, fillColor:0x000000bb});
+        with(vis.xyAxes.xAxis) {
+			horizontalAnchor = TextSprite.LEFT;
+			verticalAnchor = TextSprite.MIDDLE;
+			labelAngle = Math.PI / 2;
+        }
+        vis.update();
+    }
+	]]>
+	</mx:Script>
+
+	<mx:VBox horizontalAlign="center" top="60" horizontalCenter="{-(pieVisualization.width / 2 + 80)}">
+		<mx:Label text="distance from home breakdown" left="10" top="{pieVisualization.height+40}" styleName="date" paddingBottom="30"/>
+		<flex:FlareVis id="pieVisualization" width="400" height="500" visWidth="400" visHeight="400"  left="10" top="50" />
+	</mx:VBox>
+	<mx:VBox horizontalAlign="center" top="60" horizontalCenter="{lineVisualization.width / 2 + 80}">
+		<mx:Label text="distance from home over time" right="10" top="{lineVisualization.height+40}" styleName="date" paddingBottom="14"/>
+		<flex:FlareVis id="lineVisualization" width="400" height="500" visHeight="400" visWidth="400" right="10" top="50" />
+	</mx:VBox>
+	
+	<mx:HBox height="60" left="0" right="0" bottom="60" verticalAlign="middle" backgroundColor="#0000000" backgroundAlpha=".8" paddingLeft="10" paddingRight="10">
+		<mx:Label text="where doug spends time" styleName="title"/>
+		<mx:Label text="far, far away..." height="10" paddingBottom="0" width="100%"/>
+	</mx:HBox>
+	
+</mx:Application>

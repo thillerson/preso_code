@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns="http://www.degrafa.com/2007"
+	layout="absolute"
+	backgroundGradientColors="[#FFFFFF,#CCCCCC]">
+	
+	<mx:Style source="assets/style/style.css"/>
+	
+	<mx:Script>
+		<![CDATA[
+			import caurina.transitions.*;
+			
+			public var distance:Number = 60;
+			
+			[ Bindable ]
+			public var startPoint:Number = 188;
+            
+            private function randomRange(min:Number=0, max:Number=0):Number {
+				return (Math.random()*(max - min)) + min;
+				}
+			
+			public function mover():void
+			{
+				dayTabBar.selectedIndex++;
+				
+				Tweener.addTween(redCircle, {radius:randomRange(10,60),
+											 centerX:redCircle.centerX+40,
+											 centerY:distance*1,
+											 time:1});
+				Tweener.addTween(cyanCircle, {radius:randomRange(10,60),
+											 centerX:cyanCircle.centerX+40,
+											 centerY:distance*2,
+											 time:1});
+				Tweener.addTween(yellowCircle, {radius:randomRange(10,60),
+											 centerX:yellowCircle.centerX+40,
+											 centerY:distance*3,
+											 time:1});
+				Tweener.addTween(purpleCircle, {radius:randomRange(10,60),
+											 centerX:purpleCircle.centerX+40,
+											 centerY:distance*4,
+											 time:1});
+				Tweener.addTween(brownCircle, {radius:randomRange(10,60),
+											 centerX:brownCircle.centerX+40,
+											 centerY:distance*5,
+											 time:1});
+				Tweener.addTween(orangeCircle, {radius:randomRange(10,60),
+											 centerX:orangeCircle.centerX+40,
+											 centerY:distance*6,
+											 time:1});
+				Tweener.addTween(greyCircle, {radius:randomRange(10,60),
+											 centerX:greyCircle.centerX+40,
+											 centerY:distance*7,
+											 time:1});
+				Tweener.addTween(magentaCircle, {radius:randomRange(10,60),
+											 centerX:magentaCircle.centerX+40,
+											 centerY:distance*8,
+											 time:1});
+				Tweener.addTween(limeCircle, {radius:randomRange(10,60),
+											 centerX:limeCircle.centerX+40,
+											 centerY:distance*9,
+											 time:1,
+											 onComplete:mover});
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:HBox id="dotPath" horizontalCenter="0" top="0">
+		<mx:Text textAlign="right" styleName="category" paddingTop="50" paddingRight="40">
+			<mx:htmlText>
+				<![CDATA[design/presentations<br>comm (other)<br>dev tools<br>business/finance<br>reference/search<br>system utilities<br>news blog<br>fun (audio/video)<br>social networking]]>
+			</mx:htmlText>
+		</mx:Text>
+		<mx:ToggleButtonBar id="dayTabBar" horizontalCenter="0" top="0" styleName="extToggleButtonBar">
+			<mx:dataProvider>
+				<mx:Array>
+					<mx:Object label="00"/>
+					<mx:Object label="01"/>
+					<mx:Object label="02"/>
+					<mx:Object label="03"/>
+					<mx:Object label="04"/>
+					<mx:Object label="05"/>
+					<mx:Object label="06"/>
+					<mx:Object label="07"/>
+					<mx:Object label="08"/>
+					<mx:Object label="09"/>
+					<mx:Object label="10"/>
+					<mx:Object label="11"/>
+					<mx:Object label="12"/>
+					<mx:Object label="13"/>
+					<mx:Object label="14"/>
+					<mx:Object label="15"/>
+					<mx:Object label="16"/>
+					<mx:Object label="17"/>
+					<mx:Object label="18"/>
+					<!--<mx:Object label="19"/>
+					<mx:Object label="20"/>
+					<mx:Object label="21"/>
+					<mx:Object label="22"/>
+					<mx:Object label="23"/>-->
+				</mx:Array>
+			</mx:dataProvider>
+		</mx:ToggleButtonBar>
+	</mx:HBox>
+	
+	<!-- GRAPHICS -->
+	
+	<GeometryComposition graphicsTarget="{[dotPath]}">
+		<fills>
+			<SolidFill
+				id="limeFill"
+				color="#D5E200"/>
+			<SolidFill
+				id="cyanFill"
+				color="#00ACE5"/>
+			<SolidFill
+				id="magentaFill"
+				color="#FF2D74"/>
+			<SolidFill
+				id="yellowFill"
+				color="#FCFB00"/>
+			<SolidFill
+				id="orangeFill"
+				color="#FF9100"/>
+			<SolidFill
+				id="purpleFill"
+				color="#A32290"/>
+			<SolidFill
+				id="greyFill"
+				color="#999999"/>
+			<SolidFill
+				id="brownFill"
+				color="#CE9C6A"/>
+			<SolidFill
+				id="redFill"
+				color="#D51F1F"/>
+			<!--<ComplexFill id="cyanDiagFill">
+				<SolidFill
+					derive="{cyanFill}"/>
+				<BitmapFill
+					source="@Embed('assets/images/diags.png')"/>
+			</ComplexFill>
+			<ComplexFill id="limeDiagFill">
+				<SolidFill
+					derive="{limeFill}"/>
+				<BitmapFill
+					source="@Embed('assets/images/diags.png')"/>
+			</ComplexFill>
+			<ComplexFill id="greyDiagFill">
+				<SolidFill
+					derive="{greyFill}"/>
+				<BitmapFill
+					source="@Embed('assets/images/diags.png')"/>
+			</ComplexFill>-->
+		</fills>
+	
+		<Circle id="cyanCircle" fill="{cyanFill}" centerX="{startPoint}"/>
+		<Circle id="limeCircle" fill="{limeFill}" centerX="{startPoint}"/>
+		<Circle id="magentaCircle" fill="{cyanFill}" centerX="{startPoint}"/>
+		<Circle id="yellowCircle" fill="{limeFill}" centerX="{startPoint}"/>
+		<Circle id="orangeCircle" fill="{cyanFill}" centerX="{startPoint}"/>
+		<Circle id="purpleCircle" fill="{limeFill}" centerX="{startPoint}"/>
+		<Circle id="greyCircle" fill="{cyanFill}" centerX="{startPoint}"/>
+		<Circle id="brownCircle" fill="{limeFill}" centerX="{startPoint}"/>
+		<Circle id="redCircle" fill="{cyanFill}" centerX="{startPoint}"/>
+	</GeometryComposition>
+	
+	<GeometryComposition graphicsTarget="{[legend]}">
+		<Ellipse width="10" height="10" fill="{limeFill}" y="3"/>
+		<Ellipse width="10" height="10" fill="{cyanFill}" y="22"/>
+		<!--<Ellipse width="10" height="10" fill="{greyDiagFill}" y="38"/>-->		
+	</GeometryComposition>
+	
+	<mx:HBox height="60" left="0" right="0" bottom="60" verticalAlign="middle" backgroundColor="#0000000" backgroundAlpha=".8" paddingLeft="10" paddingRight="10">
+		<mx:Label text="time bandit" styleName="title"/>
+		<mx:Label text="linear" height="10" paddingBottom="0" styleName="label"/>
+		<mx:Button label="start" click="mover()"/>
+		<mx:Spacer height="10" width="100%"/>
+		<mx:VBox id="legend" verticalGap="2" paddingLeft="14" paddingRight="10">
+			<mx:Label text="tony" styleName="label"/>
+			<mx:Label text="juan" styleName="label"/>
+			<!--<mx:Label text="web" styleName="label"/>-->
+		</mx:VBox>
+	</mx:HBox>
+	
+</mx:Application>

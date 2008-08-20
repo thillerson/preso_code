@@ -1,0 +1,1227 @@
+<categories>
+  <category name="Home" id="70f8bb9a8">
+    <date date="08/04/2008">
+      <app duration="116" name="trulia.com" id="7427d7a93"/>
+    </date>
+  </category>
+  <category name="Audio/Video Tools" id="dead6dd31">
+    <date date="08/04/2008">
+      <app duration="88" name="iphoto" id="ee9c77029"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="6" name="iphoto" id="ee9c77029"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="35" name="incompetech.com" id="276cdb1b8"/>
+      <app duration="49" name="iphoto" id="ee9c77029"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="7" name="iphoto" id="ee9c77029"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="191" name="iphoto" id="ee9c77029"/>
+    </date>
+  </category>
+  <category name="Shopping" id="96a0dc481">
+    <date date="08/08/2008">
+      <app duration="74" name="google.com:443" id="731cb21f2"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="96" name="meeting manager" id="e27f642a0"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="118" name="amazon.com" id="d70108ebb"/>
+    </date>
+  </category>
+  <category name="Calendars" id="944450181">
+    <date date="08/11/2008">
+      <app duration="10" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="44" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="156" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="11" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="22" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="73" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="36" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="14" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="49" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="170" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="129" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="35" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="208" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="24" name="iCal" id="c0d9f2944"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="24" name="iCal" id="c0d9f2944"/>
+    </date>
+  </category>
+  <category name="News/Blogs" id="773276b6b">
+    <date date="08/11/2008">
+      <app duration="224" name="aboutnico.be" id="13f691923"/>
+      <app duration="70" name="blogs.pcworld.com" id="82f945d35"/>
+      <app duration="127" name="thunderheadxpler.blogspot.com" id="0907832e2"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="125" name="theflashblog.com" id="6a68d127a"/>
+      <app duration="62" name="blogs.oreilly.com" id="77c6540e1"/>
+      <app duration="50" name="emanueleferonato.com" id="b8d9ec213"/>
+      <app duration="42" name="samples.degrafa.com" id="20a8571ed"/>
+      <app duration="27" name="deitte.com" id="a2366fc5e"/>
+      <app duration="26" name="demo.quietlyscheming.com" id="70a07b07e"/>
+      <app duration="167" name="infosthetics.com" id="5916d1c77"/>
+      <app duration="120" name="nytimes.com" id="6291f8ec2"/>
+      <app duration="24" name="form-function.blogspot.com" id="9a9ecd694"/>
+      <app duration="21" name="insideria.com" id="9917d03d4"/>
+      <app duration="17" name="cfsearching.blogspot.com" id="66732c4f6"/>
+    </date>
+    <date date="08/03/2008">
+      <app duration="66" name="ilfilosofo.com" id="ebdfbe416"/>
+      <app duration="42" name="dummies.com" id="544732047"/>
+    </date>
+    <date date="08/17/2008">
+      <app duration="47" name="businessweek.com" id="5163ee6fb"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="196" name="websector.de" id="8ee2d947e"/>
+      <app duration="130" name="graphjam.com" id="599a241bd"/>
+      <app duration="48" name="ps3.ign.com" id="794f26cf6"/>
+      <app duration="34" name="news.filefront.com" id="f27ea2fd0"/>
+      <app duration="820" name="brightcove.tv" id="6cd86c274"/>
+      <app duration="247" name="msnbc.msn.com" id="1c63ff7ef"/>
+      <app duration="53" name="samples.degrafa.com" id="20a8571ed"/>
+      <app duration="14" name="darronschall.com" id="a452c29e6"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="192" name="latimesblogs.latimes.com" id="42d8b4183"/>
+      <app duration="14" name="thunderheadxpler.blogspot.com" id="0907832e2"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="264" name="wordpress.com" id="8751a27a0"/>
+      <app duration="91" name="wiki.dreamhost.com" id="0a19b169d"/>
+      <app duration="66" name="flexibleexperiments.wordpress.com" id="2514fc338"/>
+      <app duration="58" name="wordpress.org" id="bc5655139"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="54" name="anthonyfranco.wordpress.com" id="b662ae73b"/>
+      <app duration="29" name="macrumors.com" id="717882979"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="114" name="macrumors.com" id="717882979"/>
+      <app duration="82" name="techmeme.com" id="4c8009e60"/>
+      <app duration="50" name="news.yahoo.com" id="f45ff44ec"/>
+      <app duration="22" name="radar.oreilly.com" id="b5723b00e"/>
+      <app duration="101" name="techcrunch.com" id="97c377c89"/>
+      <app duration="36" name="tastyblogsnack.com" id="b4d1657cd"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="59" name="bennadel.com" id="b41cf79c6"/>
+      <app duration="221" name="docstoc.com" id="e3fa28516"/>
+      <app duration="29" name="weblogs.macromedia.com" id="66adc35ce"/>
+      <app duration="8" name="macrumors.com" id="717882979"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="12" name="efluxmedia.com" id="3d5491de3"/>
+      <app duration="63" name="samples.degrafa.com" id="20a8571ed"/>
+      <app duration="9" name="communitymx.com" id="eb79a513a"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="75" name="tastyblogsnack.com" id="b4d1657cd"/>
+      <app duration="24" name="macrumors.com" id="717882979"/>
+      <app duration="128" name="weblogs.macromedia.com" id="66adc35ce"/>
+      <app duration="7" name="flowingdata.com" id="2e8fa4363"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="386" name="insideria.com" id="9917d03d4"/>
+      <app duration="187" name="money.cnn.com" id="68117c3d7"/>
+      <app duration="29" name="technoracle.blogspot.com" id="c623d61ec"/>
+      <app duration="191" name="nytimes.com" id="6291f8ec2"/>
+      <app duration="102" name="samples.degrafa.com" id="20a8571ed"/>
+      <app duration="33" name="weblogs.macromedia.com" id="66adc35ce"/>
+      <app duration="30" name="brightcove.tv" id="6cd86c274"/>
+      <app duration="16" name="infosthetics.com" id="5916d1c77"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="112" name="demo.quietlyscheming.com" id="70a07b07e"/>
+      <app duration="106" name="admin.adobe.acrobat.com" id="f46ecc1fa"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="40" name="macrumors.com" id="717882979"/>
+      <app duration="24" name="flanture.blogspot.com" id="8d592b911"/>
+      <app duration="78" name="aralbalkan.com" id="1665010d0"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="54" name="weblogs.macromedia.com" id="66adc35ce"/>
+      <app duration="43" name="insideria.com" id="9917d03d4"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="78" name="blog.wired.com" id="b26822116"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="32" name="apple20.blogs.fortune.cnn.com" id="6df8652bb"/>
+      <app duration="24" name="dailymail.co.uk" id="50b86ba02"/>
+      <app duration="9" name="unibroue.com" id="ccc22725b"/>
+      <app duration="33" name="macrumors.com" id="717882979"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="296" name="merhl.com" id="1291ac16b"/>
+      <app duration="246" name="techcrunch.com" id="97c377c89"/>
+      <app duration="14" name="casario.blogs.com" id="b0f46d949"/>
+      <app duration="29" name="rjria.blogspot.com" id="4faeca864"/>
+      <app duration="14" name="radar.oreilly.com" id="b5723b00e"/>
+    </date>
+  </category>
+  <category name="Reference/Search" id="ef1ff2adb">
+    <date date="08/11/2008">
+      <app duration="702" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="15" name="peepcode.com" id="b1f2b5aae"/>
+      <app duration="1669" name="scalenine.com" id="ce6f89a93"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="496" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="177" name="images.google.com" id="274f300b3"/>
+      <app duration="124" name="scalenine.com" id="ce6f89a93"/>
+      <app duration="62" name="blogs.adobe.com" id="724de9a65"/>
+      <app duration="53" name="onflex.org" id="3f868c717"/>
+    </date>
+    <date date="08/03/2008">
+      <app duration="958" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="823" name="google.com" id="baea954b9"/>
+      <app duration="304" name="scalenine.com" id="ce6f89a93"/>
+      <app duration="124" name="blog.flexexamples.com" id="ac375537d"/>
+      <app duration="104" name="dougmccune.com" id="d0bbafacf"/>
+      <app duration="105" name="processing.org" id="23d8cf04b"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="360" name="images.google.com" id="274f300b3"/>
+      <app duration="42" name="google.com" id="baea954b9"/>
+      <app duration="1921" name="google.com/ig" id="95daf8f0e"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="45" name="onflex.org" id="3f868c717"/>
+      <app duration="31" name="google.com/ig" id="95daf8f0e"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="1149" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="114" name="safari.informit.com" id="6ade03f1f"/>
+      <app duration="322" name="scalenine.com" id="ce6f89a93"/>
+      <app duration="40" name="google.com" id="baea954b9"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="494" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="346" name="scalenine.com" id="ce6f89a93"/>
+      <app duration="22" name="eismann-sf.com" id="166e95fba"/>
+      <app duration="60" name="flare.prefuse.org" id="ebf65d0b8"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="307" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="101" name="eismann-sf.com" id="166e95fba"/>
+      <app duration="30" name="scottgmorgan.com" id="d20157b0a"/>
+      <app duration="9" name="blogs.adobe.com" id="724de9a65"/>
+      <app duration="50" name="sproutbuilder.com" id="f40c76171"/>
+      <app duration="46" name="google.com" id="baea954b9"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="478" name="google.com/ig" id="95daf8f0e"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="94" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="16" name="gotoandlearn.com" id="b5011bf14"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="112" name="basement.org" id="63d7da7c5"/>
+      <app duration="9" name="opensource.adobe.com" id="578988130"/>
+      <app duration="616" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="70" name="google.com" id="baea954b9"/>
+      <app duration="35" name="images.google.com" id="274f300b3"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="657" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="55" name="google.com" id="baea954b9"/>
+      <app duration="73" name="boxesandarrows.com" id="1ff31d429"/>
+      <app duration="39" name="onflex.org" id="3f868c717"/>
+      <app duration="10" name="coldfusionjedi.com" id="e1fc987fd"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="628" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="106" name="examples.adobe.com" id="7d3b56839"/>
+      <app duration="524" name="google.com" id="baea954b9"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="11" name="google.com" id="baea954b9"/>
+      <app duration="6" name="scalenine.com" id="ce6f89a93"/>
+      <app duration="107" name="labs.adobe.com" id="a8c8a5d40"/>
+      <app duration="87" name="blogs.adobe.com" id="724de9a65"/>
+      <app duration="68" name="opensource.adobe.com" id="578988130"/>
+      <app duration="24" name="cflex.net" id="62c9322ca"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="699" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="21" name="google.com" id="baea954b9"/>
+      <app duration="13" name="fr.wiktionary.org" id="bdee917af"/>
+      <app duration="186" name="eismann-sf.com" id="166e95fba"/>
+      <app duration="26" name="vecteezy.com" id="8ecac32b5"/>
+      <app duration="15" name="basement.org" id="63d7da7c5"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="728" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="38" name="gotoandlearn.com" id="b5011bf14"/>
+      <app duration="27" name="blogs.adobe.com" id="724de9a65"/>
+      <app duration="10" name="scalenine.com" id="ce6f89a93"/>
+      <app duration="180" name="google.com" id="baea954b9"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="50" name="basement.org" id="63d7da7c5"/>
+      <app duration="598" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="44" name="google.com" id="baea954b9"/>
+      <app duration="7" name="coldfusionjedi.com" id="e1fc987fd"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="788" name="google.com/ig" id="95daf8f0e"/>
+      <app duration="704" name="scalenine.com" id="ce6f89a93"/>
+      <app duration="114" name="eismann-sf.com" id="166e95fba"/>
+      <app duration="35" name="crn.com" id="da84cbce5"/>
+      <app duration="58" name="blogs.adobe.com" id="724de9a65"/>
+      <app duration="18" name="dougmccune.com" id="d0bbafacf"/>
+    </date>
+  </category>
+  <category name="Fun (Other)" id="eebb634bd">
+    <date date="08/09/2008">
+      <app duration="124" name="flickr.com" id="4205b5921"/>
+    </date>
+  </category>
+  <category name="Internet Utilities" id="fa01cda0e">
+    <date date="08/03/2008">
+      <app duration="141" name="panel.dreamhost.com" id="8f8d70e92"/>
+      <app duration="880" name="codex.wordpress.org" id="9e952fe04"/>
+      <app duration="427" name="1password" id="8ad742ee5"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="1016" name="1password" id="8ad742ee5"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="36" name="google.com/analytics" id="f75209271"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="28" name="1password" id="8ad742ee5"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="16" name="sites.google.com" id="cb2654600"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="36" name="1password" id="8ad742ee5"/>
+    </date>
+  </category>
+  <category name="Design/Presentation" id="86f000991">
+    <date date="08/11/2008">
+      <app duration="321" name="indesign" id="005714ba3"/>
+      <app duration="72" name="fireworks" id="a85f18261"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="1034" name="indesign" id="005714ba3"/>
+      <app duration="358" name="Photoshop" id="4cec8e547"/>
+      <app duration="40" name="fontexplorer x" id="15747c8c3"/>
+      <app duration="3501" name="keynote" id="88d145006"/>
+      <app duration="621" name="Acrobat" id="6c3f7af99"/>
+    </date>
+    <date date="08/17/2008">
+      <app duration="8" name="Photoshop" id="4cec8e547"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="1474" name="keynote" id="88d145006"/>
+      <app duration="1051" name="docs.google.com" id="77ce3797d"/>
+      <app duration="566" name="degrafa.com" id="365ae63b2"/>
+      <app duration="92" name="fontexplorer x" id="15747c8c3"/>
+      <app duration="509" name="Photoshop" id="4cec8e547"/>
+      <app duration="121" name="Acrobat" id="6c3f7af99"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="1205" name="adobe illustrator cs3" id="8cd6de0c9"/>
+      <app duration="1216" name="Acrobat" id="6c3f7af99"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="547" name="Acrobat" id="6c3f7af99"/>
+      <app duration="315" name="docs.google.com" id="77ce3797d"/>
+      <app duration="156" name="adobe illustrator cs3" id="8cd6de0c9"/>
+      <app duration="1598" name="Photoshop" id="4cec8e547"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="1885" name="keynote" id="88d145006"/>
+      <app duration="900" name="Photoshop" id="4cec8e547"/>
+      <app duration="136" name="fireworks" id="a85f18261"/>
+      <app duration="19" name="fontexplorer x" id="15747c8c3"/>
+      <app duration="2059" name="Acrobat" id="6c3f7af99"/>
+      <app duration="1056" name="docs.google.com" id="77ce3797d"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="2760" name="fireworks" id="a85f18261"/>
+      <app duration="1799" name="Acrobat" id="6c3f7af99"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="2919" name="keynote" id="88d145006"/>
+      <app duration="820" name="Photoshop" id="4cec8e547"/>
+      <app duration="25" name="fireworks" id="a85f18261"/>
+      <app duration="999" name="Acrobat" id="6c3f7af99"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="1033" name="Photoshop" id="4cec8e547"/>
+      <app duration="120" name="adobe flash cs3" id="4817b012f"/>
+      <app duration="1" name="fireworks" id="a85f18261"/>
+      <app duration="96" name="adobe illustrator cs3" id="8cd6de0c9"/>
+      <app duration="54" name="degrafa.com" id="365ae63b2"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="3403" name="Acrobat" id="6c3f7af99"/>
+      <app duration="258" name="tipit.to" id="e9e3ece2e"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="4260" name="fireworks" id="a85f18261"/>
+      <app duration="1885" name="docs.google.com" id="77ce3797d"/>
+      <app duration="111" name="degrafa.com" id="365ae63b2"/>
+      <app duration="2563" name="keynote" id="88d145006"/>
+      <app duration="789" name="adobe illustrator cs3" id="8cd6de0c9"/>
+      <app duration="346" name="Photoshop" id="4cec8e547"/>
+      <app duration="252" name="Acrobat" id="6c3f7af99"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="422" name="Photoshop" id="4cec8e547"/>
+      <app duration="196" name="fireworks" id="a85f18261"/>
+      <app duration="361" name="degrafa.com" id="365ae63b2"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="82" name="fireworks" id="a85f18261"/>
+      <app duration="4020" name="adobe illustrator cs3" id="8cd6de0c9"/>
+      <app duration="1104" name="Acrobat" id="6c3f7af99"/>
+      <app duration="1" name="indesign" id="005714ba3"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="670" name="fireworks" id="a85f18261"/>
+      <app duration="37" name="docs.google.com" id="77ce3797d"/>
+      <app duration="571" name="adobe illustrator cs3" id="8cd6de0c9"/>
+      <app duration="62" name="Photoshop" id="4cec8e547"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="3900" name="fireworks" id="a85f18261"/>
+      <app duration="2600" name="adobe illustrator cs3" id="8cd6de0c9"/>
+      <app duration="532" name="Photoshop" id="4cec8e547"/>
+      <app duration="297" name="Acrobat" id="6c3f7af99"/>
+      <app duration="210" name="adobe flash cs3" id="4817b012f"/>
+      <app duration="98" name="indesign" id="005714ba3"/>
+      <app duration="68" name="labs.blitzagency.com" id="90e70897d"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="1141" name="docs.google.com" id="77ce3797d"/>
+      <app duration="389" name="degrafa.com" id="365ae63b2"/>
+      <app duration="1156" name="fireworks" id="a85f18261"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="284" name="Acrobat" id="6c3f7af99"/>
+      <app duration="92" name="docs.google.com" id="77ce3797d"/>
+      <app duration="52" name="Photoshop" id="4cec8e547"/>
+      <app duration="2" name="fireworks" id="a85f18261"/>
+    </date>
+  </category>
+  <category name="Maps/Regional" id="77af42d65">
+    <date date="08/12/2008">
+      <app duration="103" name="maps.google.com" id="59c82859b"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="28" name="maps.google.com" id="59c82859b"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="22" name="maps.google.com" id="59c82859b"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="132" name="maps.google.com" id="59c82859b"/>
+    </date>
+  </category>
+  <category name="Fun (Audio/Video)" id="064868d10">
+    <date date="08/03/2008">
+      <app duration="510" name="iTunes" id="549c95085"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="223" name="iTunes" id="549c95085"/>
+      <app duration="32" name="quicktime player" id="0fff92e01"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="523" name="vimeo.com" id="66086659c"/>
+      <app duration="253" name="iTunes" id="549c95085"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="687" name="iTunes" id="549c95085"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="761" name="iTunes" id="549c95085"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="62" name="vimeo.com" id="66086659c"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="505" name="iTunes" id="549c95085"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="1222" name="vimeo.com" id="66086659c"/>
+      <app duration="101" name="youtube.com" id="d7e222c8d"/>
+    </date>
+  </category>
+  <category name="Business/Finance" id="23d1c6736">
+    <date date="08/17/2008">
+      <app duration="74" name="cnbc.com" id="d5763492f"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="2238" name="word" id="3cbcd90ad"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="126" name="wwws.mint.com" id="8325707ab"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="211" name="numbers" id="138c2f842"/>
+      <app duration="4" name="printerproxy" id="0a2afcea4"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="79" name="word" id="3cbcd90ad"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="677" name="word" id="3cbcd90ad"/>
+    </date>
+  </category>
+  <category name="Computers/Tech" id="7000bb892">
+    <date date="08/01/2008">
+      <app duration="41" name="arstechnica.com" id="12f5094f2"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="17" name="blog.digitalbackcountry.com" id="3a15fb598"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="364" name="apple.com" id="de740f90f"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="160" name="blog.digitalbackcountry.com" id="3a15fb598"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="70" name="infoworld.com" id="ade8a77ed"/>
+      <app duration="179" name="blog.digitalbackcountry.com" id="3a15fb598"/>
+    </date>
+  </category>
+  <category name="Comm (Email)" id="592009143">
+    <date date="08/11/2008">
+      <app duration="2221" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="5580" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="2322" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="2428" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="3178" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="7200" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="713" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="3557" name="mail" id="1d6e1cf70"/>
+    </date>
+  </category>
+  <category name="System Utilities" id="e22b956d1">
+    <date date="08/11/2008">
+      <app duration="363" name="Finder" id="85d9398ba"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="122" name="System Preferences" id="72fd7ea09"/>
+      <app duration="1650" name="Finder" id="85d9398ba"/>
+    </date>
+    <date date="08/03/2008">
+      <app duration="1967" name="Finder" id="85d9398ba"/>
+      <app duration="2" name="Preview" id="f1fbb2b43"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="56" name="extension manager" id="8926deac7"/>
+      <app duration="1110" name="Finder" id="85d9398ba"/>
+      <app duration="76" name="software update" id="c82f5020d"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="160" name="Finder" id="85d9398ba"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="1394" name="Finder" id="85d9398ba"/>
+      <app duration="153" name="screen sharing" id="9af84f9c9"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="922" name="Finder" id="85d9398ba"/>
+      <app duration="69" name="getdropbox.com" id="9eb5149f2"/>
+      <app duration="20" name="Preview" id="f1fbb2b43"/>
+      <app duration="4" name="archive utility" id="67f7787fe"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="41" name="Preview" id="f1fbb2b43"/>
+      <app duration="178" name="Finder" id="85d9398ba"/>
+      <app duration="14" name="conflict resolver" id="3a2094fb3"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="1135" name="Finder" id="85d9398ba"/>
+      <app duration="31" name="Preview" id="f1fbb2b43"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="869" name="Finder" id="85d9398ba"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="3" name="adobe updater" id="a3c898f2f"/>
+      <app duration="1676" name="Finder" id="85d9398ba"/>
+      <app duration="8" name="Preview" id="f1fbb2b43"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="1397" name="Finder" id="85d9398ba"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="980" name="Finder" id="85d9398ba"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="1345" name="Finder" id="85d9398ba"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="183" name="screen sharing" id="9af84f9c9"/>
+      <app duration="823" name="Finder" id="85d9398ba"/>
+      <app duration="1" name="adobe updater" id="a3c898f2f"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="47" name="Preview" id="f1fbb2b43"/>
+      <app duration="2" name="adobe updater" id="a3c898f2f"/>
+      <app duration="590" name="Finder" id="85d9398ba"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="406" name="Finder" id="85d9398ba"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="145" name="blog.everythingflex.com" id="5f36011bb"/>
+      <app duration="759" name="Finder" id="85d9398ba"/>
+    </date>
+  </category>
+  <category name="Fun (Games)" id="4e2875209">
+    <date date="08/04/2008">
+      <app duration="36" name="cheats.ign.com" id="2fb794021"/>
+    </date>
+  </category>
+  <category name="Fun (Humor)" id="665b52624">
+    <date date="08/01/2008">
+      <app duration="22" name="collegehumor.com" id="9fc3b9161"/>
+    </date>
+  </category>
+  <category name="suggest" id="fd0a4950b">
+    <date date="08/11/2008">
+      <app duration="160" name="cfsilence.com" id="5da03a107"/>
+      <app duration="111" name="johnwilker.com" id="7fad36be7"/>
+      <app duration="12" name="barneyb.com" id="7d9b6a963"/>
+      <app duration="29" name="derekperez.com" id="59261932b"/>
+      <app duration="12" name="thefactoryfactory.com" id="0c9d9a77b"/>
+      <app duration="10" name="rlux.tumblr.com" id="1c00d3540"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="412" name="xpthemes.com" id="967f589d2"/>
+      <app duration="240" name="photosmart c6100 series [fa7332]" id="214a0beb1"/>
+      <app duration="143" name="photosmart c6100 series [f1fee6]" id="b26d58adc"/>
+      <app duration="75" name="hpfa7331" id="fbe6c4b21"/>
+      <app duration="56" name="strokecenter.org" id="32f84dab9"/>
+      <app duration="52" name="mikekollen.com" id="1c82112f6"/>
+      <app duration="22" name="twinkle.tapulous.com" id="fe5e95363"/>
+      <app duration="19" name="ashorten.com" id="b67f60d7e"/>
+      <app duration="14" name="drawlogic.com" id="157438f43"/>
+      <app duration="256" name="xach.com" id="70f41b298"/>
+      <app duration="132" name="hpf1fee5" id="be2aa53f7"/>
+      <app duration="40" name="psych.ualberta.ca" id="7e26f68ce"/>
+      <app duration="32" name="blog.finflex.fi" id="fadb06ebb"/>
+      <app duration="14" name="hummingbirds.net" id="7d6631cbd"/>
+    </date>
+    <date date="08/03/2008">
+      <app duration="407" name="infoaccelerator.net" id="cd8f47fb4"/>
+      <app duration="40" name="cynergysystems.com.au" id="69165a814"/>
+      <app duration="180" name="seantheflexguy.com" id="939a12971"/>
+      <app duration="135" name="hubflanger.com" id="22330c098"/>
+      <app duration="36" name="twinkle.tapulous.com" id="fe5e95363"/>
+      <app duration="12" name="mattwoodward.com" id="e9f81a683"/>
+    </date>
+    <date date="08/17/2008">
+      <app duration="57" name="shigeru-nakagaki.com" id="f4fff5821"/>
+      <app duration="18" name="twinkle.tapulous.com" id="fe5e95363"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="181" name="360conferences.com" id="f1a764d36"/>
+      <app duration="171" name="boredomisyourfault.com" id="d3e6cc462"/>
+      <app duration="84" name="360flex.com" id="871031f94"/>
+      <app duration="68" name="barbariangroup.com" id="735bbfeab"/>
+      <app duration="30" name="dezconocido.files.wordpress.com" id="4389115f2"/>
+      <app duration="574" name="fireworkszone.com" id="c82429497"/>
+      <app duration="82" name="gregdove.is-a-geek.com" id="dd46fb5e5"/>
+      <app duration="44" name="tycromedia.com" id="701c5ac90"/>
+      <app duration="32" name="videogamenews.org" id="b9f3bce2b"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="140" name="cfsilence.com" id="5da03a107"/>
+      <app duration="49" name="graphicmania.net" id="5c7dca95f"/>
+      <app duration="39" name="mischefamily.com" id="74f6a0a8d"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="416" name="beta.scalenine.com" id="669ebd59b"/>
+      <app duration="44" name="infoaccelerator.net" id="cd8f47fb4"/>
+      <app duration="120" name="hp photosmart c3100 series" id="1da0ab769"/>
+      <app duration="82" name="max.adobe.com" id="9ac868b80"/>
+      <app duration="4" name="pathf.com" id="245796c4e"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="84" name="gregdove.is-a-geek.com" id="dd46fb5e5"/>
+      <app duration="72" name="beta.scalenine.com" id="669ebd59b"/>
+      <app duration="47" name="ignitedenver.blogspot.com" id="2a7c6af25"/>
+      <app duration="24" name="patrickhansen.com" id="e38524004"/>
+      <app duration="4" name="phweet.com" id="34474b160"/>
+      <app duration="24" name="mail.effectiveui.com" id="9f873981a"/>
+      <app duration="16" name="rictus.com" id="458dfaac6"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="176" name="mikehuntington.com" id="4048a75a8"/>
+      <app duration="378" name="veiosoft.com" id="f694d7a31"/>
+      <app duration="172" name="johnwilker.com" id="7fad36be7"/>
+      <app duration="98" name="finder.geocommons.com" id="895dca4f7"/>
+      <app duration="71" name="flex888.com" id="7ea3d098e"/>
+      <app duration="8" name="acrobatusers.com" id="57f01eb91"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="248" name="g-unix.com" id="15e226fa7"/>
+      <app duration="134" name="tipsfromhome.com" id="0ba57ce7e"/>
+      <app duration="96" name="freeflowingcode.com" id="f045e8458"/>
+      <app duration="31" name="flex-authority.com" id="7f7a5e05b"/>
+      <app duration="15" name="hp photosmart c3100 series" id="1da0ab769"/>
+      <app duration="8" name="effectiveui.clientsection.com" id="bdd8cdc27"/>
+      <app duration="308" name="photosmart c6100 series [f1fee6]" id="b26d58adc"/>
+      <app duration="172" name="effectiveui.harvestapp.com" id="c81c627db"/>
+      <app duration="56" name="gregdove.is-a-geek.com" id="dd46fb5e5"/>
+      <app duration="32" name="ashorten.com" id="b67f60d7e"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="221" name="jamesward.com" id="05fba9849"/>
+      <app duration="141" name="remotesynthesis.com" id="db0b87a74"/>
+      <app duration="133" name="flex888.com" id="7ea3d098e"/>
+      <app duration="72" name="axelscript.com" id="dcad6c562"/>
+      <app duration="56" name="birdeye.googlecode.com" id="b0797e21b"/>
+      <app duration="757" name="mikehuntington.com" id="4048a75a8"/>
+      <app duration="131" name="tu-tu-torials.com" id="77fd6ad2c"/>
+      <app duration="76" name="thebackbutton.com" id="c7b494fc7"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="1384" name="scrnshots.com" id="ca406b6f4"/>
+      <app duration="69" name="fontpark.morisawa.co.jp" id="bdcf71f82"/>
+      <app duration="46" name="infoaccelerator.net" id="cd8f47fb4"/>
+      <app duration="30" name="strawpollnow.com" id="45f781fb3"/>
+      <app duration="303" name="effectiveui.harvestapp.com" id="c81c627db"/>
+      <app duration="76" name="effectiveui.clientsection.com" id="bdd8cdc27"/>
+      <app duration="65" name="beta.scalenine.com" id="669ebd59b"/>
+      <app duration="29" name="peternitsch.net" id="d6028cb57"/>
+      <app duration="22" name="apprisereader.com" id="5b350b8ad"/>
+      <app duration="13" name="attachments.techguy.org" id="391b58800"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="336" name="effectiveui.harvestapp.com" id="c81c627db"/>
+      <app duration="245" name="beta.scalenine.com" id="669ebd59b"/>
+      <app duration="52" name="flashenabledblog.com" id="0ccd8b5d1"/>
+      <app duration="44" name="iamdeepa.com" id="6a026ecea"/>
+      <app duration="34" name="schoolloop.com" id="271e53868"/>
+      <app duration="33" name="api.ning.com" id="1ce517de8"/>
+      <app duration="21" name="flashspeaksactionscript.com" id="5979e1d93"/>
+      <app duration="18" name="baileysouthwell.com" id="44738418c"/>
+      <app duration="13" name="garyrgilbert.com" id="70034c108"/>
+      <app duration="24" name="soenkerohde.com" id="21c026947"/>
+      <app duration="19" name="sanctifiedstudios.com" id="d6f2475fa"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="91" name="effectiveui.harvestapp.com" id="c81c627db"/>
+      <app duration="68" name="rmaug.com" id="e0a5fcff8"/>
+      <app duration="33" name="theflexgroup.org" id="77d8d9e45"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="1361" name="effectiveui.clientsection.com:80" id="65aee5f9c"/>
+      <app duration="240" name="beta.eventvue.com" id="56ac7bce5"/>
+      <app duration="228" name="blog.springworks.de" id="c9d0ecbfe"/>
+      <app duration="70" name="d-p.com" id="0c56c1aaf"/>
+      <app duration="55" name="kentwoodcity.com" id="2f28688c5"/>
+      <app duration="17" name="salespush.com" id="1f2d46783"/>
+      <app duration="234" name="effectiveui.harvestapp.com" id="c81c627db"/>
+      <app duration="27" name="effectiveui.clientsection.com" id="bdd8cdc27"/>
+      <app duration="21" name="flexdevelopers.com" id="55c0eeaee"/>
+      <app duration="13" name="igorcosta.org" id="4162cdc09"/>
+      <app duration="10" name="iheartair.com" id="eed48f10b"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="104" name="effectiveui.harvestapp.com" id="c81c627db"/>
+      <app duration="71" name="life.neophi.com" id="bf5a6b3a8"/>
+      <app duration="65" name="robrohan.com" id="7eb6ca3e8"/>
+      <app duration="26" name="blog.ickydime.com" id="cf029da63"/>
+      <app duration="506" name="sos.state.co.us" id="bb8e9482b"/>
+      <app duration="195" name="sos.state.co.us:80" id="ade72b734"/>
+      <app duration="86" name="theflexshow.com" id="da2a89f97"/>
+      <app duration="71" name="tilestack.com" id="fc67b13f8"/>
+      <app duration="44" name="effectiveui.clientsection.com" id="bdd8cdc27"/>
+      <app duration="39" name="gregdove.is-a-geek.com" id="dd46fb5e5"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="146" name="craftymind.com" id="a7acbe86c"/>
+      <app duration="59" name="sdfug.org" id="9c37d7246"/>
+      <app duration="29" name="inthemod.com" id="761e3f4d8"/>
+      <app duration="22" name="euiu.pbwiki.com" id="07d3cb336"/>
+      <app duration="55" name="cde.ca.gov" id="af711485a"/>
+      <app duration="44" name="nzeff.com" id="fc507fa0d"/>
+      <app duration="34" name="blog.strikefish.com" id="7812d60bb"/>
+      <app duration="18" name="modestmaps.com" id="2afa31d84"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="486" name="blog.smashedapples.com" id="bea3ac551"/>
+      <app duration="105" name="bugs.adobe.com" id="ddb8a6cbc"/>
+      <app duration="92" name="photosmart c6100 series [f1fee6]" id="b26d58adc"/>
+      <app duration="90" name="smashedapples.com" id="46b21ce46"/>
+      <app duration="56" name="conferenceplus.com" id="f6f586392"/>
+      <app duration="33" name="effectiveui.com" id="1c4210878"/>
+      <app duration="7" name="cpi.webex.com" id="d72c8b51a"/>
+      <app duration="470" name="brightpointinc.com" id="e52f439c7"/>
+      <app duration="168" name="gregdove.is-a-geek.com" id="dd46fb5e5"/>
+      <app duration="92" name="brianjoseph31.typepad.com" id="9d97cc81d"/>
+      <app duration="51" name="world.honda.com" id="ba172b320"/>
+      <app duration="48" name="corkd.com" id="172d60ddd"/>
+      <app duration="13" name="blog.strikefish.com" id="7812d60bb"/>
+      <app duration="10" name="strikefish.com" id="dcec4ab17"/>
+      <app duration="6" name="enetlive.net" id="5b287a33a"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="185" name="beta.scalenine.com" id="669ebd59b"/>
+      <app duration="26" name="justinimhoff.com" id="5748a21a0"/>
+      <app duration="305" name="effectiveui.harvestapp.com" id="c81c627db"/>
+      <app duration="287" name="corkd.com" id="172d60ddd"/>
+      <app duration="282" name="spatialkey.com" id="e6ce1b4da"/>
+      <app duration="116" name="technologizer.com" id="cb64a2b8d"/>
+      <app duration="113" name="effectiveui.clientsection.com" id="bdd8cdc27"/>
+      <app duration="45" name="renaun.com" id="d32b197d1"/>
+    </date>
+  </category>
+  <category name="Comm (Other)" id="029dcf4e1">
+    <date date="08/12/2008">
+      <app duration="1716" name="adobe acrobat connect" id="b2f6cdaa2"/>
+      <app duration="61" name="skype" id="484cb3a01"/>
+    </date>
+    <date date="08/03/2008">
+      <app duration="3900" name="Adium IM" id="8e219e25d"/>
+      <app duration="727" name="ichat" id="c6ae38a17"/>
+      <app duration="24" name="secure.skype.com" id="ada2557b6"/>
+      <app duration="684" name="skype" id="484cb3a01"/>
+      <app duration="248" name="skype.com" id="0a925d333"/>
+    </date>
+    <date date="08/17/2008">
+      <app duration="362" name="Adium IM" id="8e219e25d"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="36" name="groups.google.com" id="b1bfd0a4d"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="2957" name="Adium IM" id="8e219e25d"/>
+      <app duration="22" name="groups.google.com" id="b1bfd0a4d"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="55" name="address book" id="8e64f33f3"/>
+      <app duration="14" name="groups.google.com" id="b1bfd0a4d"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="30" name="groups.google.com" id="b1bfd0a4d"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="1020" name="adobe connectnow" id="9949e1b07"/>
+      <app duration="218" name="skype" id="484cb3a01"/>
+      <app duration="12" name="groups.google.com" id="b1bfd0a4d"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="66" name="skype" id="484cb3a01"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="1832" name="Adium IM" id="8e219e25d"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="6960" name="Adium IM" id="8e219e25d"/>
+      <app duration="6" name="adobe acrobat connect" id="b2f6cdaa2"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="105" name="groups.google.com" id="b1bfd0a4d"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="543" name="groups.google.com" id="b1bfd0a4d"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="69" name="address book" id="8e64f33f3"/>
+      <app duration="396" name="skype" id="484cb3a01"/>
+      <app duration="22" name="groups.google.com" id="b1bfd0a4d"/>
+    </date>
+  </category>
+  <category name="Personal Productivity" id="46edc20fb">
+    <date date="08/12/2008">
+      <app duration="399" name="rescuetime.com" id="da2670b8b"/>
+    </date>
+    <date date="08/03/2008">
+      <app duration="811" name="pages" id="eec6542d2"/>
+      <app duration="69" name="RescueTime" id="b18d1c8e8"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="178" name="processing" id="6dd8429cc"/>
+      <app duration="31" name="evernote" id="636c16756"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="131" name="evernote" id="636c16756"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="1428" name="evernote" id="636c16756"/>
+      <app duration="600" name="pages" id="eec6542d2"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="144" name="pages" id="eec6542d2"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="1990" name="pages" id="eec6542d2"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="89" name="evernote" id="636c16756"/>
+      <app duration="24" name="RescueTime" id="b18d1c8e8"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="19" name="RescueTime" id="b18d1c8e8"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="100" name="rescuetime.com" id="da2670b8b"/>
+      <app duration="183" name="RescueTime" id="b18d1c8e8"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="1169" name="mindjet.com" id="6b087e85d"/>
+      <app duration="209" name="evernote" id="636c16756"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="557" name="pages" id="eec6542d2"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="226" name="pages" id="eec6542d2"/>
+      <app duration="3" name="RescueTime" id="b18d1c8e8"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="80" name="RescueTime" id="b18d1c8e8"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="348" name="evernote" id="636c16756"/>
+      <app duration="349" name="pages" id="eec6542d2"/>
+    </date>
+  </category>
+  <category name="Dev Tools" id="90a22a75b">
+    <date date="08/11/2008">
+      <app duration="244" name="transmit" id="2b38e5f56"/>
+      <app duration="4" name="rockonflash.com" id="17d685b01"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="104" name="Terminal" id="a1f52cdcb"/>
+      <app duration="447" name="textedit" id="99d89033a"/>
+      <app duration="50" name="developer.yahoo.com" id="03b94bdc1"/>
+    </date>
+    <date date="08/03/2008">
+      <app duration="5" name="textedit" id="99d89033a"/>
+      <app duration="2141" name="Dreamweaver" id="12867cab3"/>
+      <app duration="963" name="transmit" id="2b38e5f56"/>
+    </date>
+    <date date="08/17/2008">
+      <app duration="97" name="file://" id="a91e4897c"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="2394" name="flex builder" id="bd82165af"/>
+      <app duration="638" name="textedit" id="99d89033a"/>
+      <app duration="81" name="flash player" id="ae01c9375"/>
+      <app duration="378" name="file://" id="a91e4897c"/>
+      <app duration="194" name="transmit" id="2b38e5f56"/>
+      <app duration="59" name="Dreamweaver" id="12867cab3"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="12" name="Dreamweaver" id="12867cab3"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="1984" name="Dreamweaver" id="12867cab3"/>
+      <app duration="358" name="flex builder" id="bd82165af"/>
+      <app duration="138" name="textedit" id="99d89033a"/>
+      <app duration="24" name="code.google.com" id="f5ae97bf9"/>
+      <app duration="397" name="transmit" id="2b38e5f56"/>
+      <app duration="295" name="Terminal" id="a1f52cdcb"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="2415" name="Dreamweaver" id="12867cab3"/>
+      <app duration="278" name="flex builder" id="bd82165af"/>
+      <app duration="73" name="transmit" id="2b38e5f56"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="12" name="flash player" id="ae01c9375"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="7" name="textedit" id="99d89033a"/>
+      <app duration="1917" name="flex builder" id="bd82165af"/>
+      <app duration="107" name="Dreamweaver" id="12867cab3"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="10" name="Dreamweaver" id="12867cab3"/>
+      <app duration="1452" name="file://" id="a91e4897c"/>
+      <app duration="134" name="textedit" id="99d89033a"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="378" name="Dreamweaver" id="12867cab3"/>
+      <app duration="129" name="textedit" id="99d89033a"/>
+      <app duration="96" name="flex builder" id="bd82165af"/>
+      <app duration="19" name="transmit" id="2b38e5f56"/>
+      <app duration="8" name="file://" id="a91e4897c"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="172" name="parallels desktop" id="0b5555a53"/>
+      <app duration="156" name="file://" id="a91e4897c"/>
+      <app duration="1636" name="Dreamweaver" id="12867cab3"/>
+      <app duration="614" name="flex builder" id="bd82165af"/>
+      <app duration="324" name="textedit" id="99d89033a"/>
+      <app duration="184" name="assembla.com" id="45ed8c3b9"/>
+      <app duration="64" name="flash player" id="ae01c9375"/>
+      <app duration="50" name="transmit" id="2b38e5f56"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="132" name="file://" id="a91e4897c"/>
+      <app duration="42" name="transmit" id="2b38e5f56"/>
+      <app duration="20" name="textedit" id="99d89033a"/>
+      <app duration="1135" name="flex builder" id="bd82165af"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="307" name="textedit" id="99d89033a"/>
+      <app duration="92" name="flash player" id="ae01c9375"/>
+      <app duration="7" name="code.google.com" id="f5ae97bf9"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="1725" name="flex builder" id="bd82165af"/>
+      <app duration="110" name="280slides.com" id="816e1d1b9"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="151" name="Terminal" id="a1f52cdcb"/>
+      <app duration="22" name="textedit" id="99d89033a"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="46" name="file://" id="a91e4897c"/>
+      <app duration="12" name="textedit" id="99d89033a"/>
+      <app duration="68" name="code.google.com" id="f5ae97bf9"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="2852" name="Dreamweaver" id="12867cab3"/>
+      <app duration="15" name="textedit" id="99d89033a"/>
+    </date>
+  </category>
+  <category name="No Category" id="0972f7491">
+    <date date="08/11/2008">
+      <app duration="4680" name="Adium IM" id="8e219e25d"/>
+      <app duration="2624" name="Dreamweaver" id="12867cab3"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="10680" name="Adium IM" id="8e219e25d"/>
+      <app duration="6240" name="fireworks" id="a85f18261"/>
+    </date>
+    <date date="08/03/2008">
+      <app duration="6120" name="degrafa.com" id="365ae63b2"/>
+      <app duration="6120" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/17/2008">
+      <app duration="1015" name="mail" id="1d6e1cf70"/>
+      <app duration="672" name="flex builder" id="bd82165af"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="10440" name="fireworks" id="a85f18261"/>
+      <app duration="4380" name="Adium IM" id="8e219e25d"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="12780" name="fireworks" id="a85f18261"/>
+      <app duration="4560" name="Adium IM" id="8e219e25d"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="7500" name="indesign" id="005714ba3"/>
+      <app duration="7380" name="fireworks" id="a85f18261"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="5040" name="Adium IM" id="8e219e25d"/>
+      <app duration="3660" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="6480" name="mail" id="1d6e1cf70"/>
+      <app duration="4980" name="Adium IM" id="8e219e25d"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="4740" name="mail" id="1d6e1cf70"/>
+      <app duration="3556" name="Adium IM" id="8e219e25d"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="7800" name="Adium IM" id="8e219e25d"/>
+      <app duration="7260" name="flex builder" id="bd82165af"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="5520" name="Adium IM" id="8e219e25d"/>
+      <app duration="3960" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="9120" name="Adium IM" id="8e219e25d"/>
+      <app duration="6240" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="3660" name="word" id="3cbcd90ad"/>
+      <app duration="2883" name="keynote" id="88d145006"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="8460" name="mail" id="1d6e1cf70"/>
+      <app duration="7500" name="google.com/ig" id="95daf8f0e"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="7080" name="mail" id="1d6e1cf70"/>
+      <app duration="7020" name="Adium IM" id="8e219e25d"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="6120" name="Adium IM" id="8e219e25d"/>
+      <app duration="4680" name="mail" id="1d6e1cf70"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="9240" name="Adium IM" id="8e219e25d"/>
+      <app duration="6120" name="Acrobat" id="6c3f7af99"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="9960" name="mail" id="1d6e1cf70"/>
+      <app duration="9720" name="Adium IM" id="8e219e25d"/>
+    </date>
+  </category>
+  <category name="Education" id="aaf87fe57">
+    <date date="08/04/2008">
+      <app duration="198" name="web.cs.wpi.edu" id="66fdc728e"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="136" name="swem.wm.edu" id="d5734dba0"/>
+    </date>
+  </category>
+  <category name="Business/Vendors" id="132e6c644">
+    <date date="08/04/2008">
+      <app duration="452" name="adobe.com" id="265c10426"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="3" name="adobe.com" id="265c10426"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="102" name="adobe.com" id="265c10426"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="321" name="adobe.com" id="265c10426"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="24" name="adobe.com" id="265c10426"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="74" name="adobe.com" id="265c10426"/>
+    </date>
+  </category>
+  <category name="Social Networking" id="0946b33ae">
+    <date date="08/11/2008">
+      <app duration="176" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/12/2008">
+      <app duration="176" name="twhirl" id="368e58488"/>
+      <app duration="26" name="twitter.com" id="465806fbb"/>
+    </date>
+    <date date="08/03/2008">
+      <app duration="190" name="twhirl" id="368e58488"/>
+      <app duration="394" name="twitter.com" id="465806fbb"/>
+    </date>
+    <date date="08/17/2008">
+      <app duration="247" name="socialthing.com" id="5c86f1f37"/>
+      <app duration="83" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/04/2008">
+      <app duration="117" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/09/2008">
+      <app duration="334" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/10/2008">
+      <app duration="107" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/01/2008">
+      <app duration="276" name="secure.delicious.com" id="0b0e0c6cc"/>
+      <app duration="63" name="beta.strands.com" id="48c44a56d"/>
+      <app duration="13" name="delicious.com" id="e22239255"/>
+      <app duration="455" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/15/2008">
+      <app duration="483" name="twhirl" id="368e58488"/>
+      <app duration="74" name="brightkite.com" id="852da6d68"/>
+      <app duration="32" name="twitter.com" id="465806fbb"/>
+    </date>
+    <date date="08/02/2008">
+      <app duration="349" name="twhirl" id="368e58488"/>
+      <app duration="7" name="twitter.com" id="465806fbb"/>
+    </date>
+    <date date="08/16/2008">
+      <app duration="28" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/07/2008">
+      <app duration="168" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/08/2008">
+      <app duration="90" name="new.facebook.com" id="c6216932e"/>
+      <app duration="113" name="twhirl" id="368e58488"/>
+      <app duration="54" name="linkedin.com" id="1b274516a"/>
+    </date>
+    <date date="07/30/2008">
+      <app duration="14" name="twitpic.com" id="7dbe78e0f"/>
+      <app duration="96" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/13/2008">
+      <app duration="248" name="twhirl" id="368e58488"/>
+      <app duration="48" name="twitter.com" id="465806fbb"/>
+    </date>
+    <date date="07/31/2008">
+      <app duration="307" name="twhirl" id="368e58488"/>
+      <app duration="120" name="facebook.com" id="b7c70898d"/>
+    </date>
+    <date date="08/14/2008">
+      <app duration="422" name="twhirl" id="368e58488"/>
+    </date>
+    <date date="08/05/2008">
+      <app duration="133" name="twhirl" id="368e58488"/>
+      <app duration="24" name="delicious.com" id="e22239255"/>
+    </date>
+    <date date="08/06/2008">
+      <app duration="110" name="linkedin.com" id="1b274516a"/>
+      <app duration="38" name="twitter.com" id="465806fbb"/>
+      <app duration="22" name="brightkite.com" id="852da6d68"/>
+      <app duration="212" name="twhirl" id="368e58488"/>
+    </date>
+  </category>
+</categories>

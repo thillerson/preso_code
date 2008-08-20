@@ -921,3 +921,64 @@ Completed in 0.03080 (32 reqs/sec) | DB: 0.00000 (0%) |  [http://localhosttasks/
   [4;35;1mTask Load (0.000804)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks".context_id = 1) [0m
 Sending data 
 Completed in 0.05821 (17 reqs/sec) | Rendering: 0.00036 (0%) | DB: 0.00080 (1%) | 200 OK [http://localhosttasks/find_all]
+  [4;36;1mContext Load (0.001278)[0m   [0;1mSELECT * FROM "contexts" LIMIT 1[0m
+  [4;35;1mSQL (0.000703)[0m   [0mSELECT count(*) AS count_all FROM "contexts" [0m
+  [4;36;1mContext Load (0.000696)[0m   [0;1mSELECT * FROM "contexts" WHERE (parent_id is null) LIMIT 1[0m
+  [4;35;1mContext Load (0.001166)[0m   [0mSELECT * FROM "contexts" WHERE (parent_id is null) LIMIT 1[0m
+  [4;36;1mContext Load (0.001138)[0m   [0;1mSELECT * FROM "contexts" WHERE ("contexts"."parent_id" = 1) ORDER BY "lft"[0m
+  [4;35;1mSQL (0.000781)[0m   [0mSELECT count(*) AS count_all FROM "contexts" WHERE ("contexts"."parent_id" = 1) [0m
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2008-08-19 09:28:10) [POST]
+  Session ID: 0f9bf0916246288d7c78c1df2e78479a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.01058 (94 reqs/sec) | Rendering: 0.00030 (2%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rubyamf_gateway/]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2008-08-19 09:28:10) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--4b4d23336279a961697529df6ac62ad92c2d812c
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing ContextsController#load_tree (for 127.0.0.1 at 2008-08-19 09:28:10) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--4b4d23336279a961697529df6ac62ad92c2d812c
+  Parameters: {"action"=>"load_tree", "controller"=>"contexts"}
+  [4;36;1mContext Load (0.001032)[0m   [0;1mSELECT * FROM "contexts" WHERE (parent_id is null) LIMIT 1[0m
+Rendering contexts/load_tree
+Completed in 0.01917 (52 reqs/sec) | DB: 0.00000 (0%) |  [http://localhostcontexts/load_tree]
+  [4;35;1mContext Load (0.001123)[0m   [0mSELECT * FROM "contexts" WHERE ("contexts"."parent_id" = 1) ORDER BY "lft"[0m
+  [4;36;1mContext Load (0.001104)[0m   [0;1mSELECT * FROM "contexts" WHERE ("contexts"."parent_id" = 2) ORDER BY "lft"[0m
+  [4;35;1mContext Load (0.000340)[0m   [0mSELECT * FROM "contexts" WHERE ("contexts"."parent_id" = 4) ORDER BY "lft"[0m
+  [4;36;1mContext Load (0.000326)[0m   [0;1mSELECT * FROM "contexts" WHERE ("contexts"."parent_id" = 5) ORDER BY "lft"[0m
+  [4;35;1mContext Load (0.000338)[0m   [0mSELECT * FROM "contexts" WHERE ("contexts"."parent_id" = 3) ORDER BY "lft"[0m
+Sending data 
+Completed in 0.07354 (13 reqs/sec) | Rendering: 0.00038 (0%) | DB: 0.00323 (4%) | 200 OK [http://localhostcontexts/load_tree]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2008-08-19 09:29:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--4b4d23336279a961697529df6ac62ad92c2d812c
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00946 (105 reqs/sec) | Rendering: 0.00030 (3%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rubyamf_gateway/]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2008-08-19 09:29:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--4b4d23336279a961697529df6ac62ad92c2d812c
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing TasksController#find_all (for 127.0.0.1 at 2008-08-19 09:29:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--4b4d23336279a961697529df6ac62ad92c2d812c
+  Parameters: {"context_id"=>1, 0=>{"context_id"=>1}, "action"=>"find_all", "controller"=>"tasks"}
+  [4;36;1mContext Load (0.000700)[0m   [0;1mSELECT * FROM "contexts" WHERE ("contexts"."id" = 1) [0m
+Rendering tasks/find_all
+Completed in 0.03180 (31 reqs/sec) | DB: 0.00000 (0%) |  [http://localhosttasks/find_all]
+  [4;35;1mTask Load (0.000915)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks".context_id = 1) [0m
+Sending data 
+Completed in 0.06624 (15 reqs/sec) | Rendering: 0.00040 (0%) | DB: 0.00092 (1%) | 200 OK [http://localhosttasks/find_all]

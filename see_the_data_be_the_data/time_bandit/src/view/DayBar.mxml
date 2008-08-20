@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:ToggleButtonBar xmlns:mx="http://www.adobe.com/2006/mxml">
+	<mx:Script>
+	<![CDATA[
+		import mx.collections.ArrayCollection;
+		
+		public function set selectedDate(newDate:Date):void {
+			var d:Date;
+			var i:int;
+			var dates:ArrayCollection = dataProvider as ArrayCollection;
+			if (dates) {
+				for (; i < dates.length; i++) {
+					d = dates.getItemAt(i) as Date;
+					if (newDate.time == d.time) {
+						selectedIndex = i;
+					}
+				}
+			}
+		}
+		
+	]]>
+	</mx:Script>
+</mx:ToggleButtonBar>

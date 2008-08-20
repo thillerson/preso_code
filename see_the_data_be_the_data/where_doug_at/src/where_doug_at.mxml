@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns="http://www.degrafa.com/2007"
+	backgroundGradientColors="[#333333,#000000]"
+	layout="absolute"
+>
+	
+	<mx:Style source="assets/style/style.css"/>
+	
+	<mx:Script>
+	<![CDATA[
+		import com.google.maps.overlays.Polyline;
+		import mx.collections.ArrayCollection;
+		import com.google.maps.overlays.MarkerOptions;
+		import com.google.maps.controls.MapTypeControl;
+		import com.google.maps.controls.PositionControl;
+		import com.google.maps.controls.ZoomControl;
+		import com.google.maps.overlays.Marker;
+		import flash.events.Event;
+		import com.google.maps.MapEvent;
+		import com.google.maps.Map;
+		import com.google.maps.MapType;
+		import com.google.maps.LatLng;
+		
+		private var map:Map;
+		private var locationsXML:XML;
+		private var locations:ArrayCollection = new ArrayCollection();
+		private var displayedMarkers:Array = [];
+		private var lastMarkerIndex:int;
+		private var timer:Timer;
+		
+		public function startMap(event:Event):void {
+			map = new Map();
+			map.key = 'ABQIAAAAn5dp5mFUHOl3t1oe3jVYZBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxRIHb0LAfDmwPm29g_z0Ljz4E0wSQ'
+			map.addEventListener(MapEvent.MAP_READY, onMapReady);
+			mapContainer.addChild(map);
+		}
+		  
+		public function resizeMap(event:Event):void {
+			map.setSize(new Point(mapContainer.width, mapContainer.height));
+		}
+		  
+		private function onMapReady(event:MapEvent):void {
+		    map.addControl(new ZoomControl());
+		    map.addControl(new PositionControl());
+		    map.addControl(new MapTypeControl());
+			map.setCenter(new LatLng(37.7501,-122.412), 12, MapType.NORMAL_MAP_TYPE);
+			loadReadings();
+		}
+		
+		private function loadReadings():void {
+			var l:URLLoader = new URLLoader();
+			l.load(new URLRequest('week1.xml'));
+			l.addEventListener(Event.COMPLETE, readingsLoaded);
+		}
+		
+		private function readingsLoaded(e:Event):void {
+			locationsXML = new XML(e.target.data as String);
+			var location:XML;
+			var bar:XML;
+			var long:Number;
+			var lat:Number;
+			var marker:Marker;
+			var markerOptions:MarkerOptions;
+			for each (location in locationsXML..location) {
+				locations.addItem(Location.fromXML(location));
+			}
+		}
+		
+		private function play():void {
+			timer = new Timer(10);
+			timer.addEventListener(TimerEvent.TIMER, showNextMarker);
+			timer.start();
+		}
+		
+		private function showAll():void {
+			
+		}
+		
+		private function showNextMarker(te:TimerEvent):void {
+			if (lastMarkerIndex == locations.length) {
+				return timer.stop();
+			}
+			var location:Location = locations.getItemAt(lastMarkerIndex) as Location;
+			var marker:Marker = new Marker(location.toLatLng());
+			var removedMarker:Array;
+			map.addOverlay(marker);
+			displayedMarkers.push(marker);
+			if (displayedMarkers.length > 10) {
+				removedMarker = displayedMarkers.splice(0,1);
+				map.removeOverlay(removedMarker[0]);
+			}
+			setTime(location.date)
+			lastMarkerIndex++;
+		}
+		
+		/* Clockage */
+		
+        private function initDraw(event:TimerEvent):void
+        {
+            setTime(new Date());    
+        }
+        
+
+        public function setTime(currtime:Date):void 
+        {
+            var currseconds:uint = currtime.getSeconds();
+            var currminutes:uint = currtime.getMinutes();
+            var currhours:uint = currtime.getHours();
+            
+            minuteHand.rotation = 268 + (currminutes * 6);
+    
+            hourHand.rotation = 268 + (currhours * 30) + (currminutes * 0.5);
+            
+            dateLabel.text = (currtime.month + 1) + "/" + currtime.date;
+        }
+		
+	]]>
+	</mx:Script>
+	
+	<!-- MAP GOODNESS -->
+	
+	<mx:UIComponent id="mapContainer" 
+		initialize="startMap(event);" 
+		resize="resizeMap(event)" 
+		top="0" right="0" bottom="0" left="0"/>
+	
+	<!-- DEGRAFA GOODNESS -->
+	
+	<mx:Canvas width="150" height="150" right="10" bottom="130">
+	
+		<Surface>
+			<fills>
+				<SolidFill
+					id="magentaFill"
+					color="#FF2D74"/>
+			</fills>
+			<strokes>
+				<SolidStroke
+					id="darkThickStroke"
+					color="#222222"
+					weight="6"
+					caps="none"/>
+				<SolidStroke
+					id="darkThinStroke"
+					color="#222222"
+					weight="2"
+					caps="none"/>
+			</strokes>
+			
+			<GeometryGroup>
+				<RegularRectangle
+					id="clockFace"
+					width="150"
+					height="150"
+					fill="{magentaFill}"/>
+			</GeometryGroup>
+			<GeometryGroup
+				id="hourHand"
+				x="{clockFace.width/2}"
+				y="{clockFace.height/2}">
+				<HorizontalLine
+		            x="0"
+		            x1="45"
+		            y="0"
+		            stroke="{ darkThickStroke }"/>
+			</GeometryGroup>
+			<GeometryGroup
+				id="minuteHand"
+				x="{clockFace.width/2}"
+				y="{clockFace.height/2}">
+				<HorizontalLine
+		            x="0"
+		            x1="60"
+		            y="0"
+		            stroke="{ darkThinStroke }"/>
+			</GeometryGroup>
+				
+		</Surface>
+		
+		<mx:Label id="dateLabel" styleName="date" top="10" left="10"/>
+		
+	</mx:Canvas>
+	
+	<mx:HBox height="60" left="0" right="0" bottom="60" verticalAlign="middle" backgroundColor="#0000000" backgroundAlpha=".8" paddingLeft="10" paddingRight="10">
+		<mx:Label text="where be doug?" styleName="title"/>
+		<mx:Label text="a true story" height="10" paddingBottom="0" width="100%"/>
+		<mx:Button id="playButton" label="play" click="play()" />
+	</mx:HBox>
+	
+</mx:Application>

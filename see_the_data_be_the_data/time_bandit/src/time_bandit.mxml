@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:view="view.*"
+	backgroundGradientColors="[#FFFFFF,#CCCCCC]"
+	layout="absolute"
+	applicationComplete="init()"
+	xmlns="http://www.degrafa.com/2007">
+
+	<mx:Style source="assets/style/style.css"/>
+
+	<mx:Script>
+	<![CDATA[
+		import dto.Usage;
+		import mx.controls.dataGridClasses.DataGridColumn;
+		import model.BanditModel;
+		import dto.Category;
+		import dto.Person;
+		
+		private var xmlLoader:BanditLoader;
+		private var playTimer:Timer;
+		
+		public var size:Number = 6;
+		public var offset:Number = 69;
+		
+		[Bindable] private var tbModel:BanditModel = BanditModel.getInstance();
+		
+		[Bindable]
+		public var legendDB:Array = [
+			{ label:'design/presentations'	, color: 0xD5E200 },
+			{ label:'comm (other)'			, color: 0x00ACE5 },
+			{ label:'dev tools'				, color: 0xFF2D74 },
+			{ label:'business/finance'		, color: 0xFCFB00 },
+			{ label:'research/search'		, color: 0xFF9100 },
+			{ label:'system utilities'		, color: 0xA32290 },
+			{ label:'news blog'			, color: 0x999999 },
+			{ label:'fun (audio/video)'	, color: 0xCE9C6A },
+			{ label:'social networking'	, color: 0xD51F1F }
+		]
+		
+		private function init():void {
+			xmlLoader = new BanditLoader();
+			xmlLoader.load();
+			xmlLoader.addEventListener(BanditLoader.LOADED, xmlLoaded);
+		}
+		
+		private function xmlLoaded(e:Event):void {
+			
+		}
+		
+		private function play():void {
+			playTimer = new Timer(800);
+			playTimer.addEventListener(TimerEvent.TIMER, nextDate);
+			playTimer.start();
+		}
+
+		private function nextDate(te:TimerEvent):void {
+			if (! tbModel.advanceDate() ) {
+				playTimer.stop();
+			}
+		}
+		
+		private function getAppName(obj:Object, col:DataGridColumn):String {
+			var usage:Usage = obj as Usage;
+			return usage.app.name;
+		}
+		
+		private function getCategoryName(obj:Object, col:DataGridColumn):String {
+			var usage:Usage = obj as Usage;
+			return usage.app.category.name;
+		}
+		
+	]]>
+	</mx:Script>
+	
+	<Surface
+		x="{tonyArea.x-25}"
+		y="{tonyArea.y-25}">
+		<GeometryGroup>
+			<RegularRectangle
+				width="{tonyArea.width + 50}"
+				height="{tonyArea.height + 50}">
+				<fill>
+					<SolidFill color="#000000" alpha=".1"/>
+				</fill>
+			</RegularRectangle>
+		</GeometryGroup>
+	</Surface> 
+	
+	<Surface
+		x="{juanArea.x-25}"
+		y="{juanArea.y-25}">
+		<GeometryGroup>
+			<RegularRectangle
+				width="{juanArea.width + 50}"
+				height="{juanArea.height + 50}">
+				<fill>
+					<SolidFill color="#000000" alpha=".1"/>
+				</fill>
+			</RegularRectangle>
+		</GeometryGroup>
+	</Surface>
+	
+	<view:DayBar id="dayBar" dataProvider="{tbModel.availableDates}" labelField="date" selectedDate="{tbModel.currentDate}" horizontalCenter="0" />
+
+	<view:Petri id="tonyArea" person="{tbModel.tony}" height="250" width="500" horizontalCenter="0" verticalCenter="-200"/>
+	<view:Petri id="juanArea" person="{tbModel.juan}" height="250" width="500" horizontalCenter="0" verticalCenter="110"/>
+	
+	<mx:HBox width="100%" verticalAlign="middle" backgroundColor="#0000000" backgroundAlpha=".8" paddingLeft="10" paddingRight="10" bottom="60" height="60" horizontalCenter="0">
+		<mx:Label text="time bandit" styleName="title"/>
+		<mx:Label text="petri" height="10" paddingBottom="0" styleName="label" width="200"/>
+		<!--<mx:HBox verticalAlign="middle">
+			<mx:Label text="Category Count" styleName="label"/>
+			<mx:HSlider id="catSlider" minimum="4" maximum="10" liveDragging="true" change="tbModel.categoryLimit = catSlider.value" tickOffset="0" tickLength="0" snapInterval="1"/>
+		</mx:HBox>-->
+		<mx:HBox verticalAlign="middle" width="60%" horizontalAlign="right">
+			<mx:Label text="Duration Limit" styleName="label"/>
+			<mx:HSlider id="duraSlider" minimum="1800" maximum="3000" liveDragging="true" change="tbModel.durationLimit = duraSlider.value" tickOffset="0" tickLength="0" snapInterval="100"/>
+		</mx:HBox>
+		<mx:HBox verticalAlign="middle" width="100%">
+			<mx:Label text="Divisor" styleName="label"/>
+			<mx:HSlider id="divSlider" minimum="200" maximum="1000" liveDragging="true" change="tbModel.durationDivisor = divSlider.value" tickOffset="0" tickLength="0" snapInterval="100"/>
+		</mx:HBox>
+		<mx:Button label="start" click="play()"/>
+	</mx:HBox>
+	
+	<mx:List dataProvider="{legendDB}" right="20" verticalCenter="0" width="200" borderStyle="none" backgroundAlpha="0" rowCount="9" useRollOver="false" selectable="false">
+		<mx:itemRenderer>
+			<mx:Component>
+				<mx:HBox>
+					<GeometryComposition graphicsTarget="{[dataLabel]}">
+						<fills>
+							<SolidFill
+								id="dataFill"
+								color="{data.color}"/>
+						</fills>
+					
+						<Circle id="cyanCircle" fill="{dataFill}" radius="9" centerY="9" centerX="-16"/>
+					</GeometryComposition> 
+				<mx:Label id="dataLabel" text="{data.label}" styleName="category" height="40"/>
+				</mx:HBox>
+			</mx:Component>
+		</mx:itemRenderer>
+	</mx:List>
+	
+	<!--<mx:Text id="legend" textAlign="left" styleName="category" top="70" right="20">
+		<mx:htmlText>
+			<![CDATA[design/presentations<br>comm (other)<br>dev tools<br>business/finance<br>reference/search<br>system utilities<br>news blog<br>fun (audio/video)<br>social networking]]>
+		</mx:htmlText>
+	</mx:Text>-->
+	
+</mx:Application>

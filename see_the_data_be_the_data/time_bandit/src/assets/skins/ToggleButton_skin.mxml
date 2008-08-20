@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphicBorderSkin
+	xmlns:mx="http://www.adobe.com/2006/mxml"  
+	xmlns="http://www.degrafa.com/2007">
+	
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.core.Application;
+			
+			[Bindable]
+			private var awidth:Number=0;
+			
+			[Bindable]
+			private var aheight:Number=0;
+			
+			
+			override protected function updateDisplayList(unscaledWidth:Number, unscaledHeight:Number):void{
+				
+				super.updateDisplayList(unscaledWidth, unscaledHeight);
+				awidth = unscaledWidth;
+				aheight = unscaledHeight;
+				
+			}
+			
+			
+		]]>
+	</mx:Script>
+	
+	<fills>
+		<SolidFill
+			id="medGrey"
+			color="#444444"/>
+		<SolidFill
+			id="lightGrey"
+			color="#666666"
+			alpha=".5"/>
+	</fills>
+	
+	<geometry>
+	
+		<GeometryComposition
+			state="upSkin">
+			<RegularRectangle
+				width="{awidth}"
+				height="{aheight}">
+				<RegularRectangle
+					width="2"
+					height="{aheight}"
+					fill="{lightGrey}"/>
+			</RegularRectangle>
+		</GeometryComposition>
+		
+		<GeometryComposition
+			state="overSkin">
+			<RegularRectangle
+				width="{awidth}"
+				height="{aheight}"
+				fill="{medGrey}">
+				<RegularRectangle
+					width="2"
+					height="{aheight}"
+					fill="{lightGrey}"/>
+			</RegularRectangle>
+		</GeometryComposition>
+	
+		<GeometryComposition
+			state="selectedUpSkin">
+			<RegularRectangle
+				width="{awidth}"
+				height="{aheight}"
+				fill="{medGrey}">
+				<RegularRectangle
+					width="2"
+					height="{aheight}"
+					fill="{lightGrey}"/>
+			</RegularRectangle>
+		</GeometryComposition>
+		
+		<GeometryComposition
+			state="selectedOverSkin">
+			<RegularRectangle
+				width="{awidth}"
+				height="{aheight}"
+				fill="{medGrey}">
+				<RegularRectangle
+					width="2"
+					height="{aheight}"
+					fill="{lightGrey}"/>
+			</RegularRectangle>
+		</GeometryComposition>
+		
+		<GeometryComposition
+			state="selectedDownSkin">
+			<RegularRectangle
+				width="{awidth}"
+				height="{aheight}"
+				fill="{medGrey}">
+				<RegularRectangle
+					width="2"
+					height="{aheight}"
+					fill="{lightGrey}"/>
+			</RegularRectangle>
+		</GeometryComposition>
+		
+	</geometry>
+	
+</GraphicBorderSkin>

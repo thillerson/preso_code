@@ -595,3 +595,79 @@ Completed in 0.01280 (78 reqs/sec) | DB: 0.00000 (0%) |  [http://localhosttasks/
 Sending data 
 Completed in 0.02304 (43 reqs/sec) | Rendering: 0.00019 (0%) | DB: 0.00034 (1%) | 200 OK [http://localhosttasks/find_all]
   [4;36;1mSQL (0.000638)[0m   [0;1mSELECT version FROM schema_migrations[0m
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from /Users/tony/work/preso_code/flex_and_rails/rails_stuff/vendor/plugins/rubyamf/app/mime_type.rb:3)
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateContexts (20080817071838)
+Migrating to CreateTasks (20080817071858)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("contexts")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("tasks")[0m
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from /Users/tony/work/preso_code/flex_and_rails/rails_stuff/vendor/plugins/rubyamf/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2009-05-05 08:50:03) [POST]
+Sending data 
+Completed in 14ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf_gateway/]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2009-05-05 08:50:03) [POST]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf_gateway/]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from /Users/tony/work/preso_code/flex_and_rails/rails_stuff/vendor/plugins/rubyamf/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2009-05-05 08:50:49) [POST]
+Sending data 
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf_gateway/]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2009-05-05 08:50:49) [POST]
+
+
+Processing ContextsController#find_all (for 127.0.0.1 at 2009-05-05 08:50:49) [POST]
+  [4;36;1mContext Load (1.4ms)[0m   [0;1mSELECT * FROM "contexts" [0m
+Completed in 26ms (DB: 0) | 200 [http://localhostcontexts/find_all]
+Sending data 
+Completed in 108ms (View: 1, DB: 0) | 200 OK [http://localhostcontexts/find_all]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2009-05-05 08:50:51) [POST]
+Sending data 
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf_gateway/]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2009-05-05 08:50:51) [POST]
+
+
+Processing TasksController#find_all (for 127.0.0.1 at 2009-05-05 08:50:51) [POST]
+  Parameters: {"context_id"=>1, 0=>{"context_id"=>1}}
+  [4;35;1mContext Load (0.8ms)[0m   [0mSELECT * FROM "contexts" WHERE ("contexts"."id" = 1) [0m
+Completed in 69ms (DB: 0) | 200 [http://localhosttasks/find_all]
+  [4;36;1mTask Load (8.1ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks".context_id = 1) [0m
+Sending data 
+Completed in 158ms (View: 1, DB: 8) | 200 OK [http://localhosttasks/find_all]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2009-05-05 08:50:51) [POST]
+
+
+Processing TasksController#find_all (for 127.0.0.1 at 2009-05-05 08:50:52) [POST]
+  Parameters: {"context_id"=>2, 0=>{"context_id"=>2}}
+  [4;35;1mContext Load (0.6ms)[0m   [0mSELECT * FROM "contexts" WHERE ("contexts"."id" = 2) [0m
+Completed in 41ms (DB: 0) | 200 [http://localhosttasks/find_all]
+  [4;36;1mTask Load (1.0ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks".context_id = 2) [0m
+Sending data 
+Completed in 177ms (View: 1, DB: 1) | 200 OK [http://localhosttasks/find_all]
